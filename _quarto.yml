@@ -33,7 +33,7 @@ website:
         href: https://earth.gov/ghgcenter
         text: "US GHG Center Website"
       - icon: github
-        href: https://github.com/us-ghg-center/agu-2023-workshop
+        href: https://github.com/us-ghg-center/agu-2024-workshop
         text: "Repository home"
 
     style: "docked"

@@ -4,7 +4,7 @@ subtitle: An Interactive Workshop on the U.S. Greenhouse Gas Center and VEDA Too
 ---
 📅 Jan 28, 2024, 🕣 8:00 AM - 3:45 PM EST, 📍 Baltimore Convention Center
 
-🔗 [Session on the AGU Website](https://www.ametsoc.org/index.cfm/agu/education-careers/careers/professional-development/short-courses/advancing-open-science-an-interactive-workshop-on-harnessing-veda-for-earth-science-research-at-the-u-s-greenhouse-gas-center/)
+🔗 [Session on the AGU Website](https://www.agu.org/annual-meeting/attend#register)
 
 ## Description
 

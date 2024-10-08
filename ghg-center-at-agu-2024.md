@@ -1,29 +1,29 @@
 ---
-title: The US GHG Center at American Meteorological Society Annual Meeting 2024
+title: The US GHG Center at American Geophysical Union Annual Meeting 2024
 subtitle: (AGU 2024)
 ---
 
-Join members of the GHG Center team for several events at the 2024 AGU Annual Meeting at Baltimore, Maryland; January 28<sup>th</sup> - February 1<sup>st</sup>
+Join members of the GHG Center team for several events at the 2024 AGU Annual Meeting at Washington D.C.; December 9<sup>th</sup> - December 13<sup>th</sup>
 
 ## Short Course
 
-[**Advancing Open Science: An Interactive Workshop on Harnessing VEDA for Earth Science Research at the U.S. Greenhouse Gas Center**](https://www.ametsoc.org/index.cfm/agu/education-careers/careers/professional-development/short-courses/advancing-open-science-an-interactive-workshop-on-harnessing-veda-for-earth-science-research-at-the-u-s-greenhouse-gas-center/)
+[**Advancing Open Science: An Interactive Workshop on Harnessing VEDA for Earth Science Research at the U.S. Greenhouse Gas Center**](https://www.agu.org/annual-meeting/attend#register)
 
-📅 Jan 28, 2024, 
-🕣 8:00 AM - 3:45 PM EST, 
-📍 Baltimore Convention Center
+📅 Dec 08, 2024, 
+🕣 01:00 PM - 04:30 PM EST, 
+📍 Walter E. Washington Convention Center
 
 Learn how to effectively analyze and visualize Earth science data in the cloud using open-source tools and datasets [Jan 28, room  ].
 
 ## Town Hall
 
-[**U.S. Greenhouse Gas Center: Listening Session.**](https://agu.confex.com/agu/104ANNUAL/meetingapp.cgi/Session/66191)
+[**U.S. Greenhouse Gas Center: Listening Session.**](https://www.agu.org/annual-meeting/attend#register)
 
-📅 Jan 30, 2024, 
-🕣 12:25 PM - 1:15 PM EST, 
-📍 Holiday 5, Hilton Baltimore Inner Harbor
+📅 Dec 08, 2024, 
+🕣 01:00 PM - 04:30 PM EST, 
+📍 Walter E. Washington Convention Center
 
-Come share your thoughts and see a demonstration of the US GHG Center.  Upcoming developments and opportunities will be presented. [Jan 30, room Holiday 5 at Hilton Baltimore Inner Harbor].
+Come share your thoughts and see a demonstration of the US GHG Center.  Upcoming developments and opportunities will be presented. [Dec 08, room Holiday 5 at 📍 Walter E. Washington Convention Center].
 
 ## Presentations {.smaller}
 
