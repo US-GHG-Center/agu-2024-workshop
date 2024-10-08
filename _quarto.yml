@@ -1,0 +1,96 @@
+project:
+  type: website
+
+website:
+  page-navigation: true
+  # back-to-top-navigation: true
+  title: "U.S. Greenhouse Gas Center - AGU 2024 Workshop"
+  site-url: "https://us-ghg-center.github.io/agu-2024-workshop"
+  repo-url: https://github.com/us-ghg-center/agu-2024-workshop
+  repo-actions: [edit, issue]
+
+  navbar:
+    search: false
+    collapse: true
+    left:
+      - text: Home
+        file: index.md
+      - text: Team
+        file: team.md
+      - text: US GHG Center at AGU 2024
+        file: ghg-center-at-agu-2024.md
+        # icon: team
+  page-footer:
+    right: "This page is built with [Quarto](https://quarto.org/)."
+    left: "&copy; CC-By US GHG Center, 2024"
+
+  sidebar:
+    logo: "https://us-ghg-center.github.io/ghgc-docs/logo/ghgc-logo-light.svg"
+    pinned: true
+    align: center
+    tools:
+      - icon: globe-americas
+        href: https://earth.gov/ghgcenter
+        text: "US GHG Center Website"
+      - icon: github
+        href: https://github.com/us-ghg-center/agu-2023-workshop
+        text: "Repository home"
+
+    style: "docked"
+    search: true
+    collapse-level: 2
+    contents:
+      - href: index.md
+        text: Welcome
+      - href: agenda.md
+        text: Workshop Agenda
+      - href: https://github.com/nasa/Transform-to-Open-Science/blob/main/CODE_OF_CONDUCT.md
+        text: Code of Conduct
+      - href: prerequisites.md
+        text: Prerequisites
+      # - text: Chapters
+      #   href: chapters.md
+      - section: Sections
+        contents:
+          - text: Welcome
+            href: sections/welcome/index.qmd
+          - text: Overview of the U.S. Greenhouse Gas Center and the Science
+            href: sections/overview-us-ghg-center/index.qmd
+          - section: US GHG Center and VEDA / Data Access and Visualization
+            contents:
+              - sections/us-ghg-center-and-veda/index.qmd
+              - sections/us-ghg-center-and-veda/catalog-interaction.ipynb
+              - sections/us-ghg-center-and-veda/qgis-in-hub.qmd
+          - section: Usecase 1 - Human Anthropogenic Emissions
+            contents:
+              - sections/use-case-1/index.qmd
+              - sections/use-case-1/epa-ch4emission-grid-v2express_User_Notebook.ipynb
+              - sections/use-case-1/odiac-ffco2-monthgrid-v2022_User_Notebook.ipynb
+          - section: Usecase 2 - Complementing anthropogenic GHG emissions with natural GHG emissions and fluxes
+            contents:
+              - sections/use-case-2/index.qmd
+              - sections/use-case-2/lpjwsl-wetlandch4-grid-v1_User_Notebook.ipynb
+          - section: Usecase 3 - Identifying and quantifying emissions from large point source methane emission events leveraging aircraft and satellite data
+            contents:
+              - sections/use-case-3/index.qmd
+              - sections/use-case-3/emit-ch4plume-v1_User_Notebook.ipynb
+          - section: Open Science in Action - GitHub and Science Communication using a Web Dashboard
+            contents:
+              - sections/open-science-in-action/index.md
+          - text: Closing
+            href: sections/closing/index.qmd
+          
+format:
+  html:
+    grid:
+      sidebar-width: 30vw
+      body-width: 900px
+    theme:
+      light: [journal, style.scss]
+    
+    # css: styles.css
+    code-copy: true
+    code-overflow: wrap
+    # toc: true
+    # # toc-depth: 3
+    # toc-expand: true
