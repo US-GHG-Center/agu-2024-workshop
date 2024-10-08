@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Interactive Session: Human Anthropogenic Emissions (ODIAC) – U.S. Greenhouse Gas Center - AMS 2024 Workshop</title>
+<title>Interactive Session: Human Anthropogenic Emissions (ODIAC) – U.S. Greenhouse Gas Center - AGU 2024 Workshop</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -113,7 +113,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">U.S. Greenhouse Gas Center - AMS 2024 Workshop</span>
+    <span class="navbar-title">U.S. Greenhouse Gas Center - AGU 2024 Workshop</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -131,8 +131,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text">Team</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../ghg-center-at-ams-2024.html"> 
-<span class="menu-text">US GHG Center at AMS 2024</span></a>
+    <a class="nav-link" href="../../ghg-center-at-agu-2024.md"> 
+<span class="menu-text">US GHG Center at AGU 2024</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -164,7 +164,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       </a>
       <div class="sidebar-tools-main">
     <a href="https://earth.gov/ghgcenter" title="US GHG Center Website" class="quarto-navigation-tool px-1" aria-label="US GHG Center Website"><i class="bi bi-globe-americas"></i></a>
-    <a href="https://github.com/us-ghg-center/ams-2023-workshop" title="Repository home" class="quarto-navigation-tool px-1" aria-label="Repository home"><i class="bi bi-github"></i></a>
+    <a href="https://github.com/us-ghg-center/agu-2023-workshop" title="Repository home" class="quarto-navigation-tool px-1" aria-label="Repository home"><i class="bi bi-github"></i></a>
 </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -696,7 +696,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> generate_stats(item, geojson):</span>
 <span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>    result <span class="op">=</span> requests.post(</span>
 <span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>        <span class="ss">f"</span><span class="sc">{</span>RASTER_API_URL<span class="sc">}</span><span class="ss">/cog/statistics"</span>,</span>
-<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>        params<span class="op">=</span>{<span class="st">"url"</span>: item[<span class="st">"assets"</span>][asset_name][<span class="st">"href"</span>]},</span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>        paragu<span class="op">=</span>{<span class="st">"url"</span>: item[<span class="st">"assets"</span>][asset_name][<span class="st">"href"</span>]},</span>
 <span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>        json<span class="op">=</span>geojson,</span>
 <span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a>    ).json()[<span class="st">'features'</span>]</span>
 <span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> {</span>
@@ -845,7 +845,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/us-ghg-center\.github\.io\/ams-2024-workshop");
+      var filterRegex = new RegExp("https:\/\/us-ghg-center\.github\.io\/agu-2024-workshop");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -1193,7 +1193,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.dev/us-ghg-center/ams-2024-workshop/blob/main/sections/use-case-1/odiac-ffco2-monthgrid-v2022_User_Notebook.ipynb" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/us-ghg-center/ams-2024-workshop/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions"><ul><li><a href="https://github.dev/us-ghg-center/agu-2024-workshop/blob/main/sections/use-case-1/odiac-ffco2-monthgrid-v2022_User_Notebook.ipynb" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/us-ghg-center/agu-2024-workshop/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>

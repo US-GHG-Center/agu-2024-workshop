@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Interactive Session: Complementing anthropogenic GHG emissions with natural GHG emissions and fluxes – U.S. Greenhouse Gas Center - AMS 2024 Workshop</title>
+<title>Interactive Session: Complementing anthropogenic GHG emissions with natural GHG emissions and fluxes – U.S. Greenhouse Gas Center - AGU 2024 Workshop</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -113,7 +113,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">U.S. Greenhouse Gas Center - AMS 2024 Workshop</span>
+    <span class="navbar-title">U.S. Greenhouse Gas Center - AGU 2024 Workshop</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -131,8 +131,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text">Team</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../ghg-center-at-ams-2024.html"> 
-<span class="menu-text">US GHG Center at AMS 2024</span></a>
+    <a class="nav-link" href="../../ghg-center-at-agu-2024.md"> 
+<span class="menu-text">US GHG Center at AGU 2024</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -164,7 +164,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       </a>
       <div class="sidebar-tools-main">
     <a href="https://earth.gov/ghgcenter" title="US GHG Center Website" class="quarto-navigation-tool px-1" aria-label="US GHG Center Website"><i class="bi bi-globe-americas"></i></a>
-    <a href="https://github.com/us-ghg-center/ams-2023-workshop" title="Repository home" class="quarto-navigation-tool px-1" aria-label="Repository home"><i class="bi bi-github"></i></a>
+    <a href="https://github.com/us-ghg-center/agu-2023-workshop" title="Repository home" class="quarto-navigation-tool px-1" aria-label="Repository home"><i class="bi bi-github"></i></a>
 </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -706,7 +706,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>colormap <span class="op">=</span> cm.LinearColormap(colors <span class="op">=</span> [<span class="st">'#2c115f'</span>,<span class="st">'#721f81'</span>,<span class="st">'#b73779'</span>,<span class="st">'#f1605d'</span>,<span class="st">'#feb078'</span>], vmin <span class="op">=</span> <span class="dv">0</span>, vmax <span class="op">=</span> <span class="dv">2</span> )</span>
 <span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Add an appropriate caption, in this case it would be grams of methane per meter squared per day</span></span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Add an appropriate caption, in this case it would be gragu of methane per meter squared per day</span></span>
 <span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>colormap.caption <span class="op">=</span> <span class="st">'g CH₄/m²/day'</span></span>
 <span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a></span>
@@ -830,7 +830,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> generate_stats(item, geojson):</span>
 <span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>    result <span class="op">=</span> requests.post(</span>
 <span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>        <span class="ss">f"</span><span class="sc">{</span>RASTER_API_URL<span class="sc">}</span><span class="ss">/cog/statistics"</span>,</span>
-<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>        params<span class="op">=</span>{<span class="st">"url"</span>: item[<span class="st">"assets"</span>][<span class="st">"ch4-wetlands-emissions"</span>][<span class="st">"href"</span>]},</span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>        paragu<span class="op">=</span>{<span class="st">"url"</span>: item[<span class="st">"assets"</span>][<span class="st">"ch4-wetlands-emissions"</span>][<span class="st">"href"</span>]},</span>
 <span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a>        json<span class="op">=</span>geojson,</span>
 <span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a>    ).json()</span>
 <span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> {</span>
@@ -892,7 +892,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="generate-statistics-and-time-series-lineplots-for-merra2-data-in-year-2020-2021" class="level2">
 <h2 class="anchored" data-anchor-id="generate-statistics-and-time-series-lineplots-for-merra2-data-in-year-2020-2021">Generate Statistics and Time Series Lineplots for MERRA2 Data in Year 2020, 2021</h2>
 <div id="cell-44" class="cell">
-<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>params<span class="op">=</span>{</span>
+<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>paragu<span class="op">=</span>{</span>
 <span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>    <span class="st">'MERRA-2 T2M'</span>:</span>
 <span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>        {<span class="st">'var'</span>:<span class="st">'T2M'</span>,</span>
 <span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>        <span class="st">'cmap'</span>:<span class="st">'#000000'</span>,</span>
@@ -923,10 +923,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <div id="cell-45" class="cell">
 <div class="sourceCode cell-code" id="cb25"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> get_merra2_timeseries(year,focus,p,anomaly):</span>
-<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>    files <span class="op">=</span> glob.glob(params[p][<span class="st">'dir'</span>]<span class="op">+</span><span class="st">'*.nc4'</span>) <span class="co"># change the year for which you want to read the files</span></span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>    files <span class="op">=</span> glob.glob(paragu[p][<span class="st">'dir'</span>]<span class="op">+</span><span class="st">'*.nc4'</span>) <span class="co"># change the year for which you want to read the files</span></span>
 <span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> anomaly:</span>
 <span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>        <span class="cf">try</span>:</span>
-<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>            clim_files <span class="op">=</span> glob.glob(params[p][<span class="st">'climdir'</span>]<span class="op">+</span><span class="st">'*.nc4'</span>)</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>            clim_files <span class="op">=</span> glob.glob(paragu[p][<span class="st">'climdir'</span>]<span class="op">+</span><span class="st">'*.nc4'</span>)</span>
 <span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>        <span class="cf">except</span>:</span>
 <span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="st">'Climatological mean files (climdir) not found for specified parameter.'</span>)</span>
 <span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a>            <span class="bu">breakpoint</span>()</span>
@@ -958,21 +958,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb25-34"><a href="#cb25-34" aria-hidden="true" tabindex="-1"></a>            whichfile <span class="op">=</span> [datetime(<span class="dv">1991</span>,month,<span class="dv">1</span>).strftime(<span class="st">'%y%m'</span>)[<span class="dv">1</span>:] <span class="kw">in</span> f <span class="cf">for</span> f <span class="kw">in</span> clim_files] <span class="co"># Change the year for the data being used.</span></span>
 <span id="cb25-35"><a href="#cb25-35" aria-hidden="true" tabindex="-1"></a>            climdata <span class="op">=</span> nc.Dataset(np.array(clim_files)[whichfile][<span class="dv">0</span>])</span>
 <span id="cb25-36"><a href="#cb25-36" aria-hidden="true" tabindex="-1"></a>            </span>
-<span id="cb25-37"><a href="#cb25-37" aria-hidden="true" tabindex="-1"></a>            <span class="co">#   Calculate sum (emissions) or mean (met params) over your bounding box</span></span>
+<span id="cb25-37"><a href="#cb25-37" aria-hidden="true" tabindex="-1"></a>            <span class="co">#   Calculate sum (emissions) or mean (met paragu) over your bounding box</span></span>
 <span id="cb25-38"><a href="#cb25-38" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> <span class="st">'LPJ'</span> <span class="kw">in</span> p:</span>
-<span id="cb25-39"><a href="#cb25-39" aria-hidden="true" tabindex="-1"></a>                clim_box_total <span class="op">=</span> np.nansum(climdata[params[p][<span class="st">'climvar'</span>]][<span class="dv">0</span>,wlat,wlon])</span>
-<span id="cb25-40"><a href="#cb25-40" aria-hidden="true" tabindex="-1"></a>                now_box_total <span class="op">=</span> np.nansum(data[params[p][<span class="st">'var'</span>]][<span class="dv">0</span>,wlat,wlon])</span>
+<span id="cb25-39"><a href="#cb25-39" aria-hidden="true" tabindex="-1"></a>                clim_box_total <span class="op">=</span> np.nansum(climdata[paragu[p][<span class="st">'climvar'</span>]][<span class="dv">0</span>,wlat,wlon])</span>
+<span id="cb25-40"><a href="#cb25-40" aria-hidden="true" tabindex="-1"></a>                now_box_total <span class="op">=</span> np.nansum(data[paragu[p][<span class="st">'var'</span>]][<span class="dv">0</span>,wlat,wlon])</span>
 <span id="cb25-41"><a href="#cb25-41" aria-hidden="true" tabindex="-1"></a>            <span class="cf">elif</span> <span class="st">'MERRA'</span> <span class="kw">in</span> p:</span>
-<span id="cb25-42"><a href="#cb25-42" aria-hidden="true" tabindex="-1"></a>                clim_box_total <span class="op">=</span> np.nanmean(climdata[params[p][<span class="st">'climvar'</span>]][<span class="dv">0</span>,wlat,wlon])</span>
-<span id="cb25-43"><a href="#cb25-43" aria-hidden="true" tabindex="-1"></a>                now_box_total <span class="op">=</span> np.nanmean(data[params[p][<span class="st">'var'</span>]][<span class="dv">0</span>,wlat,wlon])</span>
+<span id="cb25-42"><a href="#cb25-42" aria-hidden="true" tabindex="-1"></a>                clim_box_total <span class="op">=</span> np.nanmean(climdata[paragu[p][<span class="st">'climvar'</span>]][<span class="dv">0</span>,wlat,wlon])</span>
+<span id="cb25-43"><a href="#cb25-43" aria-hidden="true" tabindex="-1"></a>                now_box_total <span class="op">=</span> np.nanmean(data[paragu[p][<span class="st">'var'</span>]][<span class="dv">0</span>,wlat,wlon])</span>
 <span id="cb25-44"><a href="#cb25-44" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb25-45"><a href="#cb25-45" aria-hidden="true" tabindex="-1"></a>            <span class="co">#   Replace fill values with NaN </span></span>
 <span id="cb25-46"><a href="#cb25-46" aria-hidden="true" tabindex="-1"></a>            <span class="co">#   Otherwise differencing might give wild results? (Just be safe)</span></span>
-<span id="cb25-47"><a href="#cb25-47" aria-hidden="true" tabindex="-1"></a>            wfillclim <span class="op">=</span> np.where(climdata[params[p][<span class="st">'climvar'</span>]][<span class="dv">0</span>,:,:] <span class="op">==</span> climdata[params[p][<span class="st">'climvar'</span>]]._FillValue)</span>
-<span id="cb25-48"><a href="#cb25-48" aria-hidden="true" tabindex="-1"></a>            climfield <span class="op">=</span> climdata[params[p][<span class="st">'climvar'</span>]][<span class="dv">0</span>,:,:]</span>
+<span id="cb25-47"><a href="#cb25-47" aria-hidden="true" tabindex="-1"></a>            wfillclim <span class="op">=</span> np.where(climdata[paragu[p][<span class="st">'climvar'</span>]][<span class="dv">0</span>,:,:] <span class="op">==</span> climdata[paragu[p][<span class="st">'climvar'</span>]]._FillValue)</span>
+<span id="cb25-48"><a href="#cb25-48" aria-hidden="true" tabindex="-1"></a>            climfield <span class="op">=</span> climdata[paragu[p][<span class="st">'climvar'</span>]][<span class="dv">0</span>,:,:]</span>
 <span id="cb25-49"><a href="#cb25-49" aria-hidden="true" tabindex="-1"></a>            climfield[wfillclim] <span class="op">=</span> np.nan</span>
-<span id="cb25-50"><a href="#cb25-50" aria-hidden="true" tabindex="-1"></a>            wfillnow <span class="op">=</span> np.where(data[params[p][<span class="st">'var'</span>]][<span class="dv">0</span>,:,:] <span class="op">==</span> data[params[p][<span class="st">'var'</span>]]._FillValue)</span>
-<span id="cb25-51"><a href="#cb25-51" aria-hidden="true" tabindex="-1"></a>            nowfield <span class="op">=</span> data[params[p][<span class="st">'var'</span>]][<span class="dv">0</span>,:,:]</span>
+<span id="cb25-50"><a href="#cb25-50" aria-hidden="true" tabindex="-1"></a>            wfillnow <span class="op">=</span> np.where(data[paragu[p][<span class="st">'var'</span>]][<span class="dv">0</span>,:,:] <span class="op">==</span> data[paragu[p][<span class="st">'var'</span>]]._FillValue)</span>
+<span id="cb25-51"><a href="#cb25-51" aria-hidden="true" tabindex="-1"></a>            nowfield <span class="op">=</span> data[paragu[p][<span class="st">'var'</span>]][<span class="dv">0</span>,:,:]</span>
 <span id="cb25-52"><a href="#cb25-52" aria-hidden="true" tabindex="-1"></a>            nowfield[wfillnow] <span class="op">=</span> np.nan</span>
 <span id="cb25-53"><a href="#cb25-53" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb25-54"><a href="#cb25-54" aria-hidden="true" tabindex="-1"></a>            <span class="co">#   And finally, difference current month and long-term mean </span></span>
@@ -981,12 +981,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb25-57"><a href="#cb25-57" aria-hidden="true" tabindex="-1"></a>            climdata.close()</span>
 <span id="cb25-58"><a href="#cb25-58" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
 <span id="cb25-59"><a href="#cb25-59" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> <span class="st">'LPJ'</span> <span class="kw">in</span> p:</span>
-<span id="cb25-60"><a href="#cb25-60" aria-hidden="true" tabindex="-1"></a>                box_totals.append(np.nansum(data[params[p][<span class="st">'var'</span>]][<span class="dv">0</span>,wlat,wlon]))</span>
+<span id="cb25-60"><a href="#cb25-60" aria-hidden="true" tabindex="-1"></a>                box_totals.append(np.nansum(data[paragu[p][<span class="st">'var'</span>]][<span class="dv">0</span>,wlat,wlon]))</span>
 <span id="cb25-61"><a href="#cb25-61" aria-hidden="true" tabindex="-1"></a>            <span class="cf">elif</span> <span class="st">'MERRA'</span> <span class="kw">in</span> p:</span>
-<span id="cb25-62"><a href="#cb25-62" aria-hidden="true" tabindex="-1"></a>                box_totals.append(np.nanmean(data[params[p][<span class="st">'var'</span>]][<span class="dv">0</span>,wlat,wlon]))</span>
+<span id="cb25-62"><a href="#cb25-62" aria-hidden="true" tabindex="-1"></a>                box_totals.append(np.nanmean(data[paragu[p][<span class="st">'var'</span>]][<span class="dv">0</span>,wlat,wlon]))</span>
 <span id="cb25-63"><a href="#cb25-63" aria-hidden="true" tabindex="-1"></a>            <span class="co">#   Replace fill values with NaN (otherwise maps are hard to read) </span></span>
-<span id="cb25-64"><a href="#cb25-64" aria-hidden="true" tabindex="-1"></a>            month_field.append(data[params[p][<span class="st">'var'</span>]][<span class="dv">0</span>,:,:])</span>
-<span id="cb25-65"><a href="#cb25-65" aria-hidden="true" tabindex="-1"></a>            wfill <span class="op">=</span> np.where(month_field[<span class="op">-</span><span class="dv">1</span>] <span class="op">==</span> data[params[p][<span class="st">'var'</span>]]._FillValue)</span>
+<span id="cb25-64"><a href="#cb25-64" aria-hidden="true" tabindex="-1"></a>            month_field.append(data[paragu[p][<span class="st">'var'</span>]][<span class="dv">0</span>,:,:])</span>
+<span id="cb25-65"><a href="#cb25-65" aria-hidden="true" tabindex="-1"></a>            wfill <span class="op">=</span> np.where(month_field[<span class="op">-</span><span class="dv">1</span>] <span class="op">==</span> data[paragu[p][<span class="st">'var'</span>]]._FillValue)</span>
 <span id="cb25-66"><a href="#cb25-66" aria-hidden="true" tabindex="-1"></a>            month_field[<span class="op">-</span><span class="dv">1</span>][wfill] <span class="op">=</span> np.nan</span>
 <span id="cb25-67"><a href="#cb25-67" aria-hidden="true" tabindex="-1"></a>            <span class="co">#breakpoint()</span></span>
 <span id="cb25-68"><a href="#cb25-68" aria-hidden="true" tabindex="-1"></a></span>
@@ -1003,7 +1003,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb25-79"><a href="#cb25-79" aria-hidden="true" tabindex="-1"></a>        <span class="st">'month_labels'</span>:month_labels,</span>
 <span id="cb25-80"><a href="#cb25-80" aria-hidden="true" tabindex="-1"></a>        <span class="st">'box_totals'</span>:box_totals,</span>
 <span id="cb25-81"><a href="#cb25-81" aria-hidden="true" tabindex="-1"></a>        <span class="st">'month_fields'</span>:month_field,</span>
-<span id="cb25-82"><a href="#cb25-82" aria-hidden="true" tabindex="-1"></a>        <span class="st">'units'</span>:data[params[p][<span class="st">'var'</span>]].units,</span>
+<span id="cb25-82"><a href="#cb25-82" aria-hidden="true" tabindex="-1"></a>        <span class="st">'units'</span>:data[paragu[p][<span class="st">'var'</span>]].units,</span>
 <span id="cb25-83"><a href="#cb25-83" aria-hidden="true" tabindex="-1"></a>        <span class="st">'lat'</span>:data[<span class="st">'lat'</span>][:],</span>
 <span id="cb25-84"><a href="#cb25-84" aria-hidden="true" tabindex="-1"></a>        <span class="st">'lon'</span>:data[<span class="st">'lon'</span>][:],</span>
 <span id="cb25-85"><a href="#cb25-85" aria-hidden="true" tabindex="-1"></a>        <span class="st">'mean'</span>:np.nanmean(month_field),</span>
@@ -1039,7 +1039,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb26-24"><a href="#cb26-24" aria-hidden="true" tabindex="-1"></a>        )</span>
 <span id="cb26-25"><a href="#cb26-25" aria-hidden="true" tabindex="-1"></a>    <span class="cf">except</span> <span class="pp">ValueError</span>:</span>
 <span id="cb26-26"><a href="#cb26-26" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">'Double check that you have all twelve months of MERRA-2 data downloaded!'</span>)</span>
-<span id="cb26-27"><a href="#cb26-27" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(params[p][<span class="st">'dir'</span>])</span>
+<span id="cb26-27"><a href="#cb26-27" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(paragu[p][<span class="st">'dir'</span>])</span>
 <span id="cb26-28"><a href="#cb26-28" aria-hidden="true" tabindex="-1"></a>        <span class="bu">breakpoint</span>()</span>
 <span id="cb26-29"><a href="#cb26-29" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb26-30"><a href="#cb26-30" aria-hidden="true" tabindex="-1"></a>    <span class="co">#   Construct plot title</span></span>
@@ -1055,7 +1055,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb26-40"><a href="#cb26-40" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb26-41"><a href="#cb26-41" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb26-42"><a href="#cb26-42" aria-hidden="true" tabindex="-1"></a>    ax.legend(loc<span class="op">=</span><span class="st">'best'</span>)</span>
-<span id="cb26-43"><a href="#cb26-43" aria-hidden="true" tabindex="-1"></a>    nickname <span class="op">=</span> params[p][<span class="st">'nickname'</span>]</span>
+<span id="cb26-43"><a href="#cb26-43" aria-hidden="true" tabindex="-1"></a>    nickname <span class="op">=</span> paragu[p][<span class="st">'nickname'</span>]</span>
 <span id="cb26-44"><a href="#cb26-44" aria-hidden="true" tabindex="-1"></a>    savename <span class="op">=</span> <span class="st">'box_summed_</span><span class="sc">%s</span><span class="st">_</span><span class="sc">%s</span><span class="st">_</span><span class="sc">%s</span><span class="st">.png'</span><span class="op">%</span> <span class="op">\</span></span>
 <span id="cb26-45"><a href="#cb26-45" aria-hidden="true" tabindex="-1"></a>        (nickname,year,focus)</span>
 <span id="cb26-46"><a href="#cb26-46" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> anomaly:</span>
@@ -1163,7 +1163,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/us-ghg-center\.github\.io\/ams-2024-workshop");
+      var filterRegex = new RegExp("https:\/\/us-ghg-center\.github\.io\/agu-2024-workshop");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -1511,7 +1511,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.dev/us-ghg-center/ams-2024-workshop/blob/main/sections/use-case-2/lpjwsl-wetlandch4-grid-v1_User_Notebook.ipynb" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/us-ghg-center/ams-2024-workshop/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions"><ul><li><a href="https://github.dev/us-ghg-center/agu-2024-workshop/blob/main/sections/use-case-2/lpjwsl-wetlandch4-grid-v1_User_Notebook.ipynb" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/us-ghg-center/agu-2024-workshop/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
