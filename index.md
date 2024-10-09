@@ -2,24 +2,27 @@
 title: Utilizing Open Science Techniques for Exploring Greenhouse Gas Data
 subtitle: An Interactive Workshop on the U.S. Greenhouse Gas Center and VEDA Tools for use in Earth Science Research
 ---
-📅 Jan 28, 2024, 🕣 8:00 AM - 3:45 PM EST, 📍 Baltimore Convention Center
+📅 Jan 28, 2024, 🕣 01:00 PM - 04:30 PM EST, 📍 Walter E. Washington Convention Center
 
 🔗 [Session on the AGU Website](https://www.agu.org/annual-meeting/attend#register)
 
 ## Description
 
-This workshop provides a hands-on learning experience for researchers, educators, and students who are eager to harness NASA's key greenhouse gas datasets, open-source tools, and accessible computing resources for visualizing, exploring, publishing, and communicating scientific results. Participants will learn about and utilize the new U.S. Greenhouse Gas Center (GHG Center) to examine curated, trusted data in a cloud computing environment. The activities will center around data and information aligned with three science use cases to ensure broad applicability.  Participants will learn to access analysis workflows using cloud-optimized data, access data products via a standards-based catalog, configure data products for web-based visualizations, and communicate scientific discoveries through a web dashboard. 
+This half-day workshop will provide hands-on practice to efficiently use the U.S. Greenhouse Gas Center (US GHG Center) portal key datasets, open-source tools, and computing resources for exploring, visualizing, analyzing and communicating science related to greenhouse gases.
 
-The workshop will provide an overview of the newly released U.S. Greenhouse Gas Center, a prototype system that aims to integrate federal and non-federal data, reflecting transparency in both data and methods, to address a variety of end user needs for greenhouse gas monitoring and to bring together actionable information from multiple sources. Examples of products that will be part of this training include methane concentration anomalies from space-based instruments (e.g., EMIT), data on natural emissions and fluxes available from the U.S. GHG Center, as well as gridding processes of anthropogenic methane emissions. 
+The US GHG Center was created to provide curated, trusted greenhouse gas data and information via a user interface, QGIS or cloud computing environment to make it easier to access, use and understand data from one centralized location regardless of data producer or data storage location.  The GHG Center portal provides cloud optimized access to a growing set of federal and non-federal data. The contents reflect transparency in both data and methods, to address different end user needs and to bring together actionable information from multiple sources. 
+
+Workshop activities encompass exploration of several science questions and activities using the US GHG Center services and tools. Participants will learn from GHG specialists about the latest science or policies that can be identified in the data for a given region or location. Attendees will produce trends over time, visually compare data from selected times, utilize code notebooks to compare datasets and develop detailed figures and comparison charts and to summarize and share results. Example python code will be provided so that users can gain practice at using and adapting the open code and focus more on the activity than on building new code given the time limitations.
 
 ## Learning Outcomes
 
 Upon completing this workshop, participants will be able to:
-
-1. Understand the scientific basis of the GHG products from the newly formed U.S. Greenhouse Gas Center.
-2. Employ Python and Jupyter Notebooks for effective data analysis and visualization of Earth science data in the cloud.
-3. Disseminate and share scientific findings to achieve a wider impact.
-4. Understand basic principles for contributing to open-sourced software projects.
+1. Understand what GHG products are available in the US GHG Center portal and use the data to answer scientific questions
+2. Use the US GHG Center portal to explore and compare existing datasets and data layers
+3. Employ Jupyter notebooks to perform data analysis and visualization of Earth science data in the cloud
+4. Gain understanding of GIS workflows
+5. Produce visualizations and images for a report summarizing the activity and knowledge gained
+6. Understand principles for contributing to open-sourced software projects
 
 ## Target Audience
 

@@ -1,5 +1,5 @@
 ---
-title: Identifying and quantifying emissions from large point source methane emission events leveraging aircraft and satellite data
+title: Explore Data Integration with QGIS
 ---
 
 <iframe
