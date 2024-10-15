@@ -2,7 +2,7 @@
 title: Utilizing Open Science Techniques for Exploring Greenhouse Gas Data
 subtitle: An Interactive Workshop on the U.S. Greenhouse Gas Center and VEDA Tools for use in Earth Science Research
 ---
-📅 Jan 28, 2024, 🕣 01:00 PM - 04:30 PM EST, 📍 Walter E. Washington Convention Center
+📅 Dec 08, 2024, 🕣 01:00 PM - 04:30 PM EST, 📍 Walter E. Washington Convention Center
 
 🔗 [Session on the AGU Website](https://www.agu.org/annual-meeting/attend#register)
 
@@ -17,6 +17,7 @@ Workshop activities encompass exploration of several science questions and activ
 ## Learning Outcomes
 
 Upon completing this workshop, participants will be able to:
+
 1. Understand what GHG products are available in the US GHG Center portal and use the data to answer scientific questions
 2. Use the US GHG Center portal to explore and compare existing datasets and data layers
 3. Employ Jupyter notebooks to perform data analysis and visualization of Earth science data in the cloud

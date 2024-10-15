@@ -61,22 +61,22 @@ website:
               - sections/us-ghg-center-and-veda/index.qmd
               - sections/us-ghg-center-and-veda/catalog-interaction.ipynb
               - sections/us-ghg-center-and-veda/qgis-in-hub.qmd
-          - section: Usecase 1 - Use of Portal Data Toolkit Interfaces and Tools
+          - section: Activity 1 - Use of Portal Data Toolkit Interfaces and Tools
             contents:
-              - sections/use-case-1/index.qmd
-              - sections/use-case-1/epa-ch4emission-grid-v2express_User_Notebook.ipynb
-              - sections/use-case-1/odiac-ffco2-monthgrid-v2022_User_Notebook.ipynb
-          - section: Usecase 2 - Use of the Hub and Jupyter Notebooks
+              - sections/activity-1/index.qmd
+              - sections/activity-1/epa-ch4emission-grid-v2express_User_Notebook.ipynb
+              - sections/activity-1/odiac-ffco2-monthgrid-v2022_User_Notebook.ipynb
+          - section: Activity 2 - Use of the Hub and Jupyter Notebooks
             contents:
-              - sections/use-case-2/index.qmd
-              - sections/use-case-2/lpjwsl-wetlandch4-grid-v1_User_Notebook.ipynb
-          - section: Usecase 3 - Explore Data Integration with QGIS
+              - sections/activity-2/index.qmd
+              - sections/activity-2/lpjwsl-wetlandch4-grid-v1_User_Notebook.ipynb
+          - section: Activity 3 - Explore Data Integration with QGIS
             contents:
-              - sections/use-case-3/index.qmd
-              - sections/use-case-3/emit-ch4plume-v1_User_Notebook.ipynb
+              - sections/activity-3/index.qmd
+              - sections/activity-3/emit-ch4plume-v1_User_Notebook.ipynb
           - section: Open Science in Action - GitHub and Science Communication using a Web Dashboard
             contents:
-              - sections/open-science-in-action/index.md
+              - sections/open-science-in-action/index.qmd
           - text: Closing
             href: sections/closing/index.qmd
           
