@@ -2,62 +2,36 @@
 title: The US GHG Center at American Geophysical Union Annual Meeting 2024
 subtitle: (AGU 2024)
 ---
+Join us for events and presentations at the 2024 AGU Annual Meeting, held December 9-13, 2024 in Washington, D.C. 
 
-Join members of the GHG Center team for several events at the 2024 AGU Annual Meeting at Washington D.C.; December 9<sup>th</sup> - December 13<sup>th</sup>
+This list continues to be updated as presentation times and locations are confirmed. Check back here for the latest list of where to engage with and hear from the US GHG Center!
 
-## Short Course
+## Pre-Conference Workshop
 
-[**Advancing Open Science: An Interactive Workshop on Harnessing VEDA for Earth Science Research at the U.S. Greenhouse Gas Center**](https://www.agu.org/annual-meeting/attend#register)
-
-📅 Dec 08, 2024, 
-🕣 01:00 PM - 04:30 PM EST, 
-📍 Walter E. Washington Convention Center
-
-Learn how to effectively analyze and visualize Earth science data in the cloud using open-source tools and datasets [Jan 28, room  ].
-
-## Town Hall
-
-[**U.S. Greenhouse Gas Center: Listening Session.**](https://www.agu.org/annual-meeting/attend#register)
+[**PREWS17 - Advancing Open Science: Greenhouse Gas Emission Data Analysis Using the U.S. Greenhouse Gas Center’s Jupyter Hub**](https://agu.confex.com/agu/agu24/meetingapp.cgi/Session/229081)
 
 📅 Dec 08, 2024, 
 🕣 01:00 PM - 04:30 PM EST, 
-📍 Walter E. Washington Convention Center
+📍 Capitol/Congress (Marriott Marquis)
 
-Come share your thoughts and see a demonstration of the US GHG Center.  Upcoming developments and opportunities will be presented. [Dec 08, room Holiday 5 at 📍 Walter E. Washington Convention Center].
+This half-day workshop will provide hands-on practice to efficiently use the U.S. Greenhouse Gas Center (US GHG Center) key datasets, open-source tools, and computing resources for exploring, visualizing, analyzing, and communicating science.
 
-## Presentations {.smaller}
+## Oral
+[**SY21A - Providing Accessible and Credible Greenhouse Gas Information from the U.S. Government and Partners to Meet User Needs**](https://agu.confex.com/agu/agu24/meetingapp.cgi/Session/240449)
 
-Multiple presentations by GHG Center team members will occur throughout the week. Stop by to hear more from GHG Center team members!
+📅 Dec 10, 2024, 
+🕣 08:30 AM - 10:00 AM EST, 
+📍 Independence D (Marriott Marquis)
 
-+-------------------------------------------+---------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| When                                      | Room                                                    | Presentation Title                                                                                                                                                                                                                                                                        |
-+===========================================+=========================================================+===========================================================================================================================================================================================================================================================================================+
-| Tues, Jan 30 **4:45**                     | Holiday 5                                               | [8A.2 Stakeholder Engagement for the US Greenhouse Gas Center (Combley)](https://agu.confex.com/agu/104ANNUAL/meetingapp.cgi/Paper/433989)                                                                                                                                                |
-|                                           |                                                         |                                                                                                                                                                                                                                                                                           |
-|                                           | <sup>Hilton Baltimore Inner Harbor</sup>                |                                                                                                                                                                                                                                                                                           |
-+-------------------------------------------+---------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Mon, Jan 29 **5:15**                      | 336                                                     | [J4B.4 Developing a Cross-Institutional Open-Source Cyberinfrastructure to Explore, Analyze, and Communicate Greenhouse Gas Data and Information (Chaudhary)](https://agu.confex.com/agu/104ANNUAL/meetingapp.cgi/Paper/434972)                                                           |
-|                                           |                                                         |                                                                                                                                                                                                                                                                                           |
-|                                           | <sup>The Baltimore Convention Center</sup>              |                                                                                                                                                                                                                                                                                           |
-+-------------------------------------------+---------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Tues, Jan 30 **5:15**                     | Ballroom II                                             | [J8A.4 PPAP’s and NIST’s Urban Greenhouse Gas Measurements Program (Whetstone)](https://agu.confex.com/agu/104ANNUAL/meetingapp.cgi/Paper/436668)                                                                                                                                         |
-|                                           |                                                         |                                                                                                                                                                                                                                                                                           |
-|                                           | <sup>The Baltimore Convention Center</sup>              |                                                                                                                                                                                                                                                                                           |
-+-------------------------------------------+---------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Wed, Jan 31 **5:30**                      | Holiday 5                                               | [12A.5 NIST’s Urban Greenhouse Gas Measurements Program and Interactions with NOAA’s Air Resources Laboratory  (Whetstone)](https://agu.confex.com/agu/104ANNUAL/meetingapp.cgi/Paper/436648)                                                                                             |
-|                                           |                                                         |                                                                                                                                                                                                                                                                                           |
-|                                           | <sup>Hilton Baltimore Inner Harbor</sup>                |                                                                                                                                                                                                                                                                                           |
-+-------------------------------------------+---------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Mon, Jan 29 **11:30**                     | 321/322                                                 |[2B.4 Methane and Carbon Dioxide Point Source Measurements Across Six Continents from the EMIT Imaging Spectrometer on the International Space Station - and Contributions to the U.S. Greenhouse Gas Center (Green)](https://agu.confex.com/agu/104ANNUAL/meetingapp.cgi/Paper/434256)    |
-|                                           |                                                         |                                                                                                                                                                                                                                                                                           |
-|                                           | <sup>The Baltimore Convention Center</sup>              |                                                                                                                                                                                                                                                                                           |
-+-------------------------------------------+---------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Mon, Jan 29 **5:30**                      | 321/322                                                 |[4B.5 Detectability of Anthropogenic Impacts on Terrestrial Carbon Storage through Space Based Greenhouse Gas Observations (Weir)](https://agu.confex.com/agu/104ANNUAL/meetingapp.cgi/Paper/439992)                                                                                       |
-|                                           |                                                         |                                                                                                                                                                                                                                                                                           |
-|                                           | <sup>The Baltimore Convention Center</sup>              |                                                                                                                                                                                                                                                                                           |
-+-------------------------------------------+---------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Thur, Feb 1 **2:30**                      | Holiday 4                                               | [J15.4 NOAA Carbon Monitoring, Research and Innovation: Long-Standing Foundation to Support Climate Mitigation (Grubišić)](https://agu.confex.com/agu/104ANNUAL/meetingapp.cgi/Paper/438098)                                                                                              |
-|                                           |                                                         |                                                                                                                                                                                                                                                                                           |
-|                                           | <sup>Hilton Baltimore Inner Harbor</sup>                |                                                                                                                                                                                                                                                                                           |
-+-------------------------------------------+---------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-: {.striped .hover tbl-colwidths="[12,20,70]"}
+During this session, we will demonstrate how the US GHG Center is playing a pivotal role in implementing the “National Strategy to Advance an Integrated US Greenhouse Gas Measurement, Monitoring, and Information System” (GHGMMIS) and discuss forthcoming refinements and co-development initiatives between the U.S. Government and its stakeholders for 2025 and beyond.
+
+## Presntations
+Multiple presentations by US GHG Center team members will occur throughout the week. 
+
+[**SY042 - Providing Accessible and Credible Greenhouse Gas Information from the US Government and Partners to Meet User Needs**](https://agu.confex.com/agu/agu24/meetingapp.cgi/Session/226835)
+
+This session will highlight partnerships and activities among the federal government and its stakeholders leading to user-driven research, development of routine products, investments in advancing observing and verification capabilities, and stakeholder-driven capabilities developed during the initial (2023-2024) phase of the US GHG Center. 
+
+[**IN33E-03 The U.S. Greenhouse Gas Center: A Trusted Online Platform for Data Access, Visualization, and Analysis**](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1542963)
+
+[**IN43D-01U.S. Greenhouse Gas Center Cyberinfrastructure: Automating Data Discovery, Transformation and STAC Management**](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1566590)

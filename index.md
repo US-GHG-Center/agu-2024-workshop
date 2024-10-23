@@ -1,10 +1,10 @@
 ---
-title: Utilizing Open Science Techniques for Exploring Greenhouse Gas Data
+title: Advancing Open Science Greenhouse Gas Emission Data Analysis Using the U.S. Greenhouse Gas Center’s Jupyter Hub
 subtitle: An Interactive Workshop on the U.S. Greenhouse Gas Center and VEDA Tools for use in Earth Science Research
 ---
-📅 Dec 08, 2024, 🕣 01:00 PM - 04:30 PM EST, 📍 Walter E. Washington Convention Center
+📅 Dec 08, 2024, 🕣 01:00 PM - 04:30 PM EST, 📍 Capitol/Congress (Marriott Marquis)
 
-🔗 [Session on the AGU Website](https://www.agu.org/annual-meeting/attend#register)
+🔗 [Session on the AGU Website](https://agu.confex.com/agu/agu24/meetingapp.cgi/Session/229081)
 
 ## Description
 

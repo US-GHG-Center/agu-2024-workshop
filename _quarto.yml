@@ -42,8 +42,8 @@ website:
     contents:
       - href: index.md
         text: Welcome
-      - href: agenda.md
-        text: Workshop Agenda
+      #- href: agenda.md
+      #  text: Workshop Agenda
       - href: https://github.com/nasa/Transform-to-Open-Science/blob/main/CODE_OF_CONDUCT.md
         text: Code of Conduct
       - href: prerequisites.md
@@ -59,21 +59,16 @@ website:
           - section: US GHG Center and VEDA / Data Access and Visualization
             contents:
               - sections/us-ghg-center-and-veda/index.qmd
-              - sections/us-ghg-center-and-veda/catalog-interaction.ipynb
               - sections/us-ghg-center-and-veda/qgis-in-hub.qmd
           - section: Activity 1 - Use of Portal Data Toolkit Interfaces and Tools
             contents:
               - sections/activity-1/index.qmd
-              - sections/activity-1/epa-ch4emission-grid-v2express_User_Notebook.ipynb
-              - sections/activity-1/odiac-ffco2-monthgrid-v2022_User_Notebook.ipynb
           - section: Activity 2 - Use of the Hub and Jupyter Notebooks
             contents:
               - sections/activity-2/index.qmd
-              - sections/activity-2/lpjwsl-wetlandch4-grid-v1_User_Notebook.ipynb
           - section: Activity 3 - Explore Data Integration with QGIS
             contents:
               - sections/activity-3/index.qmd
-              - sections/activity-3/emit-ch4plume-v1_User_Notebook.ipynb
           - section: Open Science in Action - GitHub and Science Communication using a Web Dashboard
             contents:
               - sections/open-science-in-action/index.qmd

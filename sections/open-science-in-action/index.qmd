@@ -1,5 +1,5 @@
 ---
-title: Use of the Hub and Jupyter Notebooks
+title: Open Science in Action
 ---
 Coming Soon
 
