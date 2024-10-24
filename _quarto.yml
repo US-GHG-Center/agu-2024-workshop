@@ -13,10 +13,8 @@ website:
     search: false
     collapse: true
     left:
-      - text: Home
-        file: index.md
-      - text: Team
-        file: team.md
+      #- text: Home
+      #  file: index.md
       - text: US GHG Center at AGU 2024
         file: ghg-center-at-agu-2024.md
         # icon: team
@@ -48,8 +46,7 @@ website:
         text: Code of Conduct
       - href: prerequisites.md
         text: Prerequisites
-      # - text: Chapters
-      #   href: chapters.md
+   
       - section: Sections
         contents:
           - text: Welcome
@@ -74,6 +71,9 @@ website:
               - sections/open-science-in-action/index.qmd
           - text: Closing
             href: sections/closing/index.qmd
+      - href: team.md 
+        text: Team             
+                   
           
 format:
   html:

@@ -1,17 +1,20 @@
 # Speakers
-
-- Slesa Adhikari <sup>1</sup>
-- Sid Chaudhary <sup>1</sup>
+- Deborah Smith <sup>1</sup>
 - Lesley Ott <sup>2</sup>
+- Sid Chaudhary <sup>1</sup>
 
 # Support Team
 
 #### General Support
-- Deborah Smith <sup>1</sup>
+- Jeanné le Roux<sup>1</sup>
 - Sid Chaudhary <sup>1</sup>
 
 #### Interactive Sessions
 - Emily Bell <sup>2</sup>
+- Jeanné le Roux<sup>1</sup>
+- Sid Chaudhary <sup>1</sup>
+- Slesa Adhikari <sup>1</sup>
+
 
 
 <hr>
