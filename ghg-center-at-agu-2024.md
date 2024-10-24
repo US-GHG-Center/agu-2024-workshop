@@ -46,5 +46,6 @@ The US GHG Center system leverages analysis-ready cloud-optimized data for disse
 
 📅 Dec 10, 2024, 
 🕣 01:40 PM - 05:30 PM EST, 
-📍 Hall B-C (Poster Hall)
+📍 Hall B-C (Poster Hall) (Convention Center)
+
 

@@ -4,7 +4,7 @@ project:
 website:
   page-navigation: true
   # back-to-top-navigation: true
-  title: "U.S. Greenhouse Gas Center - AGU 2024 Workshop"
+  title: "AGENDA - AGU 2024 Pre-conference Workshop"
   site-url: "https://us-ghg-center.github.io/agu-2024-workshop"
   repo-url: https://github.com/us-ghg-center/agu-2024-workshop
   repo-actions: [edit, issue]
@@ -15,7 +15,7 @@ website:
     left:
       #- text: Home
       #  file: index.md
-      - text: US GHG Center at AGU 2024
+      - text: SCHEDULE - US GHG Center at AGU 2024
         file: ghg-center-at-agu-2024.md
         # icon: team
   page-footer:
