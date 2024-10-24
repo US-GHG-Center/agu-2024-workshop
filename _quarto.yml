@@ -83,7 +83,7 @@ format:
     theme:
       light: [journal, style.scss]
     
-    # css: styles.css
+    css: style.scss
     code-copy: true
     code-overflow: wrap
     # toc: true
