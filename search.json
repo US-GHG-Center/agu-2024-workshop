@@ -6,7 +6,7 @@
     "section": "",
     "text": "Coming Soon\nClick here to access the slides.",
     "crumbs": [
-      "US GHG Center at AGU 2024",
+      "SCHEDULE - US GHG Center at AGU 2024",
       "Sections",
       "Activity 2 - Use of the Hub and Jupyter Notebooks",
       "Use of the Hub and Jupyter Notebooks"
@@ -19,7 +19,7 @@
     "section": "",
     "text": "Coming Soon\nClick here to access the slides.",
     "crumbs": [
-      "US GHG Center at AGU 2024",
+      "SCHEDULE - US GHG Center at AGU 2024",
       "Sections",
       "Welcome"
     ]
@@ -31,7 +31,7 @@
     "section": "",
     "text": "Coming Soon\nClick here to access the slides.",
     "crumbs": [
-      "US GHG Center at AGU 2024",
+      "SCHEDULE - US GHG Center at AGU 2024",
       "Sections",
       "US GHG Center and VEDA / Data Access and Visualization",
       "QGIS in the Hub"
@@ -44,7 +44,7 @@
     "section": "",
     "text": "Coming Soon\nClick here to access the slides.",
     "crumbs": [
-      "US GHG Center at AGU 2024",
+      "SCHEDULE - US GHG Center at AGU 2024",
       "Sections",
       "Open Science in Action - GitHub and Science Communication using a Web Dashboard",
       "Open Science in Action"
@@ -57,7 +57,7 @@
     "section": "",
     "text": "Coming Soon\n[Click here to access the slides.]",
     "crumbs": [
-      "US GHG Center at AGU 2024",
+      "SCHEDULE - US GHG Center at AGU 2024",
       "Sections",
       "Overview of the U.S. Greenhouse Gas Center and the Science"
     ]
@@ -144,7 +144,7 @@
     "href": "ghg-center-at-agu-2024.html#posters-poster-sessions",
     "title": "The US GHG Center at American Geophysical Union Annual Meeting 2024",
     "section": "Posters & Poster Sessions",
-    "text": "Posters & Poster Sessions\nSY23D - Providing Accessible and Credible Greenhouse Gas Information from the US Government and Partners to Meet User Needs\n📅 Dec 10, 2024, 🕣 01:40 PM - 05:30 PM EST, 📍 Hall B-C (Poster Hall)"
+    "text": "Posters & Poster Sessions\nSY23D - Providing Accessible and Credible Greenhouse Gas Information from the US Government and Partners to Meet User Needs\n📅 Dec 10, 2024, 🕣 01:40 PM - 05:30 PM EST, 📍 Hall B-C (Poster Hall) (Convention Center)"
   },
   {
     "objectID": "prerequisites.html",
@@ -153,7 +153,7 @@
     "section": "",
     "text": "Participants are expected to have a basic knowledge of the python programming language.\nParticipants MUST obtain the following to be able to follow along the workshop:\n\nUS GHG Center JupyterHub Access\nEarthdata credentials\n\n\n\n🚨 Please make sure you have both of the accesses before you come to the workshop on Sunday.\n\n\n\nThe US GHG Center notebook environment is available to authorized users on an as-need basis. You can request access by using our Hub Access Request form.\n\nMake sure you have a GitHub Account. Take note of your GitHub username.\nFill out the request form and provide needed information. Make sure to use your organization/univerity email and use “AGU Workshop 2024” as the reason.\nWatch your email for notification of authorization and the invite to join the US GHG Center Hub Access GitHub Team.\nOnce you accept the invitation, you can go to hub.ghg.center and login using your GitHub credentials.\n\n\n\n\nFollow the tutorial on this link to register for Earthdata login: https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-components/earthdata-login.\nMake sure to note your username and password.",
     "crumbs": [
-      "US GHG Center at AGU 2024",
+      "SCHEDULE - US GHG Center at AGU 2024",
       "Prerequisites"
     ]
   },
@@ -164,7 +164,7 @@
     "section": "",
     "text": "The US GHG Center notebook environment is available to authorized users on an as-need basis. You can request access by using our Hub Access Request form.\n\nMake sure you have a GitHub Account. Take note of your GitHub username.\nFill out the request form and provide needed information. Make sure to use your organization/univerity email and use “AGU Workshop 2024” as the reason.\nWatch your email for notification of authorization and the invite to join the US GHG Center Hub Access GitHub Team.\nOnce you accept the invitation, you can go to hub.ghg.center and login using your GitHub credentials.",
     "crumbs": [
-      "US GHG Center at AGU 2024",
+      "SCHEDULE - US GHG Center at AGU 2024",
       "Prerequisites"
     ]
   },
@@ -175,7 +175,7 @@
     "section": "",
     "text": "Follow the tutorial on this link to register for Earthdata login: https://www.earthdata.nasa.gov/eosdis/science-system-description/eosdis-components/earthdata-login.\nMake sure to note your username and password.",
     "crumbs": [
-      "US GHG Center at AGU 2024",
+      "SCHEDULE - US GHG Center at AGU 2024",
       "Prerequisites"
     ]
   },
@@ -193,7 +193,7 @@
     "section": "",
     "text": "Speakers\n\nDeborah Smith 1\nLesley Ott 2\nSid Chaudhary 1\n\n\n\nSupport Team\n\nGeneral Support\n\nJeanné le Roux1\nSid Chaudhary 1\n\n\n\nInteractive Sessions\n\nEmily Bell 2\nJeanné le Roux1\nSid Chaudhary 1\nSlesa Adhikari 1\n\n\n1 University of Alabama in Huntsville (UAH), 2 NASA Goddard Space Flight Center (GSFC),",
     "crumbs": [
-      "US GHG Center at AGU 2024",
+      "SCHEDULE - US GHG Center at AGU 2024",
       "Team"
     ]
   },
@@ -204,7 +204,7 @@
     "section": "",
     "text": "📅 Dec 08, 2024, 🕣 01:00 PM - 04:30 PM EST, 📍 Capitol/Congress (Marriott Marquis)\n🔗 Session on the AGU Website",
     "crumbs": [
-      "US GHG Center at AGU 2024",
+      "SCHEDULE - US GHG Center at AGU 2024",
       "Welcome"
     ]
   },
@@ -215,7 +215,7 @@
     "section": "Description",
     "text": "Description\nThis half-day workshop will provide hands-on practice to efficiently use the U.S. Greenhouse Gas Center (US GHG Center) portal key datasets, open-source tools, and computing resources for exploring, visualizing, analyzing and communicating science related to greenhouse gases.\nThe US GHG Center was created to provide curated, trusted greenhouse gas data and information via a user interface, QGIS or cloud computing environment to make it easier to access, use and understand data from one centralized location regardless of data producer or data storage location. The GHG Center portal provides cloud optimized access to a growing set of federal and non-federal data. The contents reflect transparency in both data and methods, to address different end user needs and to bring together actionable information from multiple sources.\nWorkshop activities encompass exploration of several science questions and activities using the US GHG Center services and tools. Participants will learn from GHG specialists about the latest science or policies that can be identified in the data for a given region or location. Attendees will produce trends over time, visually compare data from selected times, utilize code notebooks to compare datasets and develop detailed figures and comparison charts and to summarize and share results. Example python code will be provided so that users can gain practice at using and adapting the open code and focus more on the activity than on building new code given the time limitations.",
     "crumbs": [
-      "US GHG Center at AGU 2024",
+      "SCHEDULE - US GHG Center at AGU 2024",
       "Welcome"
     ]
   },
@@ -226,7 +226,7 @@
     "section": "Learning Outcomes",
     "text": "Learning Outcomes\nUpon completing this workshop, participants will be able to:\n\nUnderstand what GHG products are available in the US GHG Center portal and use the data to answer scientific questions\nUse the US GHG Center portal to explore and compare existing datasets and data layers\nEmploy Jupyter notebooks to perform data analysis and visualization of Earth science data in the cloud\nGain understanding of GIS workflows\nProduce visualizations and images for a report summarizing the activity and knowledge gained\nUnderstand principles for contributing to open-sourced software projects",
     "crumbs": [
-      "US GHG Center at AGU 2024",
+      "SCHEDULE - US GHG Center at AGU 2024",
       "Welcome"
     ]
   },
@@ -237,7 +237,7 @@
     "section": "Target Audience",
     "text": "Target Audience\nThe target audience for this workshop includes Earth Science researchers, educators, and students across all career stages and disciplines who are interested in utilizing GHG datasets and open-source tools for their research projects. The workshop will be beneficial for both experienced programmers seeking an overview of modern open tools and those just getting started with scientific programming.",
     "crumbs": [
-      "US GHG Center at AGU 2024",
+      "SCHEDULE - US GHG Center at AGU 2024",
       "Welcome"
     ]
   },
@@ -248,7 +248,7 @@
     "section": "Code of Conduct",
     "text": "Code of Conduct\nThis workshop will be held following the Transform to Open Science Code of Conduct.",
     "crumbs": [
-      "US GHG Center at AGU 2024",
+      "SCHEDULE - US GHG Center at AGU 2024",
       "Welcome"
     ]
   },
@@ -259,7 +259,7 @@
     "section": "",
     "text": "Coming Soon\nClick here to access the slides.",
     "crumbs": [
-      "US GHG Center at AGU 2024",
+      "SCHEDULE - US GHG Center at AGU 2024",
       "Sections",
       "Activity 1 - Use of Portal Data Toolkit Interfaces and Tools",
       "Use of Portal Data Toolkit Interfaces and Tools"
@@ -272,7 +272,7 @@
     "section": "",
     "text": "Coming Soon\nClick here to access the slides.",
     "crumbs": [
-      "US GHG Center at AGU 2024",
+      "SCHEDULE - US GHG Center at AGU 2024",
       "Sections",
       "Activity 3 - Explore Data Integration with QGIS",
       "Explore Data Integration with QGIS"
@@ -285,7 +285,7 @@
     "section": "",
     "text": "Coming Soon\nClick here to access the slides.",
     "crumbs": [
-      "US GHG Center at AGU 2024",
+      "SCHEDULE - US GHG Center at AGU 2024",
       "Sections",
       "US GHG Center and VEDA / Data Access and Visualization",
       "US GHG Center & VEDA"
@@ -298,7 +298,7 @@
     "section": "",
     "text": "Coming Soon\nClick here to access the slides.",
     "crumbs": [
-      "US GHG Center at AGU 2024",
+      "SCHEDULE - US GHG Center at AGU 2024",
       "Sections",
       "Closing"
     ]
