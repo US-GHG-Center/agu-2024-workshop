@@ -26,6 +26,8 @@ website:
     logo: "https://us-ghg-center.github.io/ghgc-docs/logo/ghgc-logo-light.svg"
     pinned: true
     align: center
+    enabled: true
+    ghg-center-at-agu-2024: false
     tools:
       - icon: globe-americas
         href: https://earth.gov/ghgcenter

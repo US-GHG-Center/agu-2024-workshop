@@ -1,6 +1,7 @@
 ---
 title: The US GHG Center at American Geophysical Union Annual Meeting 2024
 subtitle: (AGU 2024)
+sidebar: false
 ---
 Join us for events and presentations at the 2024 AGU Annual Meeting, held December 9-13, 2024 in Washington, D.C. 
 
