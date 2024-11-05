@@ -38,7 +38,7 @@ This presentation will provide an overview of the development of the US GHG Cent
 
 📅 Dec 12, 2024, 
 🕣 02:10 PM - 02:40 PM EST, 
-📍 Marquis 3-4 (Marriott Marquis)
+📍 Marquis 12-13 (Marriott Marquis)
 
 The US GHG Center system leverages analysis-ready cloud-optimized data for dissemination, analysis, and visualization of greenhouse gas datasets. With regular data additions and routine updates, this presentation provides an overview of an automated pipeline that has been developed to help integrate and maintain the datasets accessible from the US GHG Center portal. 
 
