@@ -42,6 +42,14 @@ This presentation will provide an overview of the development of the US GHG Cent
 
 The US GHG Center system leverages analysis-ready cloud-optimized data for dissemination, analysis, and visualization of greenhouse gas datasets. With regular data additions and routine updates, this presentation provides an overview of an automated pipeline that has been developed to help integrate and maintain the datasets accessible from the US GHG Center portal. 
 
+[**GC51E-03 Federally Coordinated Greenhouse Gas Information for Decision Making**](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1671288)
+
+📅 Dec 13, 2024, 
+🕣 8:54 AM - 9:06 AM EST, 
+📍 103 A-B (Convention Center)
+
+After extensive stakeholder engagement, the US GHG Center is re-envisioning and exploring co-production of its capabilities, products, and datasets to better serve its users, especially policy makers. This presentation will feature findings from the demonstration phase stakeholder engagement process and the evolution of the stakeholder engagement strategy to better serve domestic decision making.
+
 ## Posters & Poster Sessions
 [**SY23D - Providing Accessible and Credible Greenhouse Gas Information from the US Government and Partners to Meet User Needs**](https://agu.confex.com/agu/agu24/meetingapp.cgi/Session/226835)
 
