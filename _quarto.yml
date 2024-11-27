@@ -59,18 +59,12 @@ website:
             contents:
               - sections/us-ghg-center-and-veda/index.qmd
               - sections/us-ghg-center-and-veda/qgis-in-hub.qmd
-          - section: Activity 1 - Use of Portal Data Toolkit Interfaces and Tools
+          - section: Activity Set 1 - Exploring Wetland Methane Emissions 
             contents:
               - sections/activity-1/index.qmd
-          - section: Activity 2 - Use of the Hub and Jupyter Notebooks
+          - section: Activity Set 2 - Exploring Urban Greenhouse Gas Emissions
             contents:
               - sections/activity-2/index.qmd
-          - section: Activity 3 - Explore Data Integration with QGIS
-            contents:
-              - sections/activity-3/index.qmd
-          - section: Open Science in Action - GitHub and Science Communication using a Web Dashboard
-            contents:
-              - sections/open-science-in-action/index.qmd
           - text: Closing
             href: sections/closing/index.qmd
       - href: team.md 

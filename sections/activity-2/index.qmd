@@ -1,6 +1,14 @@
 ---
-title: Use of the Hub and Jupyter Notebooks
+title: Topic Set 2 - Exploring Urban Greenhouse Gas Emissions (75 min)
 ---
-Coming Soon
+**Activity 4**: Use the Urban Dashboard to Examine GHG data in Urban Areas (15 min)
 
-[Click here to access the slides.]()
+Explore the similarities and differences between GHG characteristics between different urban areas and between different GHG gases within a given city. 
+
+**Activity 5**: Use Notebooks to Further Explore Data in Jupyter Hub (30 min)
+
+Use a notebook in the JupyterHub to step through actions that develop figures and plots.
+
+**Activity 6**: Use GHG Data in QGIS and Access STAC (30 min)
+
+Use QGIS to read the GHG Center STAC data and devise plots that communicate information to decision makers.   

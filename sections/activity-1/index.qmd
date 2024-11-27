@@ -1,6 +1,16 @@
 ---
-title: Use of Portal Data Toolkit Interfaces and Tools
+title: Topic Learning Set 1 - Exploring Wetland Methane Emissions (75 min)
 ---
-Coming Soon
+**Activity 1**: Start in Portal DataToolkit Page and Explore and Visualize Wetland Data  (15 min)
 
-[Click here to access the slides.]()
+Use the Explore and Analysis environment and special GHG Center tools to better understand the differences in emissions over space and time.
+
+**Activity 2**: Use Jupyter Notebooks to Explore Data in the GHG Center Jupyter Hub (30 min)
+
+Sign in and set up Jupyter hub environments to use open source tools and code. Access the GHG STAC data and data from other sources to create plots, time series and linear regressions.  
+
+**Activity 3**: Use GHG Center Data in QGIS (30 min)
+
+Learn how GHG STAC API and datasets are integrated into QGIS and how to use GHG Data with other NASA CMR STAC data. Relate data understanding to actionable outcomes.
+
+**User feedback discussion** - What did you like or dislike about the portal tools?

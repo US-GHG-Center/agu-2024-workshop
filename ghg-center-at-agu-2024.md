@@ -26,6 +26,12 @@ This half-day workshop will provide hands-on practice to efficiently use the U.S
 
 During this session, we will demonstrate how the US GHG Center is playing a pivotal role in implementing the “National Strategy to Advance an Integrated US Greenhouse Gas Measurement, Monitoring, and Information System” (GHGMMIS) and discuss forthcoming refinements and co-development initiatives between the U.S. Government and its stakeholders for 2025 and beyond.
 
+[**A23P-05 - Identifying, quantifying, and attributing methane and carbon dioxide point source emissions from space with EMIT**](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1682479)
+
+📅 Dec 10, 2024, 
+🕣 02:55 PM - 03:05 PM EST, 
+📍 154 A-B (Convention Center)
+
 [**IN33E-03 The U.S. Greenhouse Gas Center: A Trusted Online Platform for Data Access, Visualization, and Analysis**](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1542963)
 
 📅 Dec 11, 2024, 
@@ -51,10 +57,33 @@ The US GHG Center system leverages analysis-ready cloud-optimized data for disse
 After extensive stakeholder engagement, the US GHG Center is re-envisioning and exploring co-production of its capabilities, products, and datasets to better serve its users, especially policy makers. This presentation will feature findings from the demonstration phase stakeholder engagement process and the evolution of the stakeholder engagement strategy to better serve domestic decision making.
 
 ## Posters & Poster Sessions
+[**A21K-1921 - Estimation of CH4 Emission Rates Using Statistical Inversion of a Gaussian Plume Model**](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1682366)
+📅 Dec 10, 2024, 
+🕣 08:30 AM - 12:20 PM EST, 
+📍 Hall B-C (Poster Hall) (Convention Center)
+
+[**A21K-1918 - Mapping Greenhouse Gas Emissions with AVIRIS-NG in NASA's STAQS Airborne Campaign**](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1694060)
+
+📅 Dec 10, 2024, 
+🕣 08:30 AM - 12:20 PM EST, 
+📍 Hall B-C (Poster Hall) (Convention Center)
+
+[**SY21A - Large Emission Events Identified from Imaging Spectroscopy are Supporting Decision-making and Interagency Activities through the U. S. Greenhouse Gas Center**](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1652633)
+
+📅 Dec 10, 2024, 
+🕣 01:40 PM - 05:30 PM EST, 
+📍  Hall B-C (Poster Hall) (Convention Center)
+
 [**SY23D - Providing Accessible and Credible Greenhouse Gas Information from the US Government and Partners to Meet User Needs**](https://agu.confex.com/agu/agu24/meetingapp.cgi/Session/226835)
 
 📅 Dec 10, 2024, 
 🕣 01:40 PM - 05:30 PM EST, 
 📍 Hall B-C (Poster Hall) (Convention Center)
 
+During this session, we will demonstrate how the US GHG Center is playing a pivotal role in implementing the “National Strategy to Advance an Integrated US Greenhouse Gas Measurement, Monitoring, and Information System” (GHGMMIS) and discuss forthcoming refinements and co-development initiatives between the U.S. Government and its stakeholders for 2025 and beyond.
 
+[**GC41H-0035 - Sensitivity and Uncertainty in Gas Detection using Matched Filters in Imaging Spectroscopy**](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1680662)
+
+📅 Dec 12, 2024, 
+🕣 08:30 AM - 12:20 PM EST, 
+📍 Hall B-C (Poster Hall) (Convention Center)

@@ -8,22 +8,24 @@ subtitle: An Interactive Workshop on the U.S. Greenhouse Gas Center and VEDA Too
 
 ## Description
 
-This half-day workshop will provide hands-on practice to efficiently use the U.S. Greenhouse Gas Center (US GHG Center) portal key datasets, open-source tools, and computing resources for exploring, visualizing, analyzing and communicating science related to greenhouse gases.
+This half-day workshop will provide hands-on practice with efficiently using the U.S. Greenhouse Gas Center (US GHG Center) portal datasets, open-source tools, and computing resources for exploring, visualizing, and analyzing greenhouse gas data.  
 
-The US GHG Center was created to provide curated, trusted greenhouse gas data and information via a user interface, QGIS or cloud computing environment to make it easier to access, use and understand data from one centralized location regardless of data producer or data storage location.  The GHG Center portal provides cloud optimized access to a growing set of federal and non-federal data. The contents reflect transparency in both data and methods, to address different end user needs and to bring together actionable information from multiple sources. 
+The US GHG Center portal was created to provide users with access to curated, trusted, and user-friendly greenhouse gas data and information. The portal contents reflect transparency in both data and methods to address different end user needs and to bring together actionable information from multiple sources. The portal contains a growing collection of federal and non-federal data to choose from.
 
-Workshop activities encompass exploration of several science questions and activities using the US GHG Center services and tools. Participants will learn from GHG specialists about the latest science or policies that can be identified in the data for a given region or location. Attendees will produce trends over time, visually compare data from selected times, utilize code notebooks to compare datasets and develop detailed figures and comparison charts and to summarize and share results. Example python code will be provided so that users can gain practice at using and adapting the open code and focus more on the activity than on building new code given the time limitations.
+Workshop activities encompass a hands-on demonstration of science questions using activities and portal data, services and tools. Participants will learn from GHG specialists about the latest science for a given region or location as they use the interface, hub cloud computing or QGIS to visualize and analyze the data. Feedback will be solicited to help improve user services and tools. Attendees will produce trends over time, compare data across selected times, utilize code notebooks with different datasets and develop detailed figures and charts. Example python code will be provided so that users can gain practice at using and adapting the open code and focus more on the activity than on building new code given the time limitations.
 
 ## Learning Outcomes
 
 Upon completing this workshop, participants will be able to:
 
-1. Understand what GHG products are available in the US GHG Center portal and use the data to answer scientific questions
-2. Use the US GHG Center portal to explore and compare existing datasets and data layers
-3. Employ Jupyter notebooks to perform data analysis and visualization of Earth science data in the cloud
-4. Gain understanding of GIS workflows
-5. Produce visualizations and images for a report summarizing the activity and knowledge gained
-6. Understand principles for contributing to open-sourced software projects
+1. Understand what GHG data products are available in the US GHG Center portal and use the data to answer scientific questions.
+
+2. Use the US GHG Center exploration and analysis environment to perform basic exploratory analyses of existing datasets and data layers.
+
+3. Employ Jupyter notebooks to perform data analysis and visualization of US GHG Center data in the cloud.
+
+4. Interact with US GHG Center data using standard GIS workflows and APIs.
+
 
 ## Target Audience
 
