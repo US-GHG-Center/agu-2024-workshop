@@ -2,14 +2,14 @@
   {
     "objectID": "sections/activity-2/index.html",
     "href": "sections/activity-2/index.html",
-    "title": "Use of the Hub and Jupyter Notebooks",
+    "title": "Topic Set 2 - Exploring Urban Greenhouse Gas Emissions (75 min)",
     "section": "",
-    "text": "Coming Soon\nClick here to access the slides.",
+    "text": "Activity 4: Use the Urban Dashboard to Examine GHG data in Urban Areas (15 min)\nExplore the similarities and differences between GHG characteristics between different urban areas and between different GHG gases within a given city.\nActivity 5: Use Notebooks to Further Explore Data in Jupyter Hub (30 min)\nUse a notebook in the JupyterHub to step through actions that develop figures and plots.\nActivity 6: Use GHG Data in QGIS and Access STAC (30 min)\nUse QGIS to read the GHG Center STAC data and devise plots that communicate information to decision makers.",
     "crumbs": [
       "SCHEDULE - US GHG Center at AGU 2024",
       "Sections",
-      "Activity 2 - Use of the Hub and Jupyter Notebooks",
-      "Use of the Hub and Jupyter Notebooks"
+      "Activity Set 2 - Exploring Urban Greenhouse Gas Emissions",
+      "Topic Set 2 - Exploring Urban Greenhouse Gas Emissions (75 min)"
     ]
   },
   {
@@ -42,20 +42,14 @@
     "href": "sections/open-science-in-action/index.html",
     "title": "Open Science in Action",
     "section": "",
-    "text": "Coming Soon\nClick here to access the slides.",
-    "crumbs": [
-      "SCHEDULE - US GHG Center at AGU 2024",
-      "Sections",
-      "Open Science in Action - GitHub and Science Communication using a Web Dashboard",
-      "Open Science in Action"
-    ]
+    "text": "Coming Soon\nClick here to access the slides."
   },
   {
     "objectID": "sections/overview-us-ghg-center/index.html",
     "href": "sections/overview-us-ghg-center/index.html",
     "title": "Overview of the U.S. Greenhouse Gas Center",
     "section": "",
-    "text": "Coming Soon\n[Click here to access the slides.]",
+    "text": "Introduction (20 min)\nIntroduction and participant survey\nWelcome and GHG Center background\nIntroduction to US GHG Center portal, stories, topics, data, information, tools, news and information\nClick here to access the slides.",
     "crumbs": [
       "SCHEDULE - US GHG Center at AGU 2024",
       "Sections",
@@ -137,14 +131,14 @@
     "href": "ghg-center-at-agu-2024.html#orals-oral-sessions",
     "title": "The US GHG Center at American Geophysical Union Annual Meeting 2024",
     "section": "Orals & Oral Sessions",
-    "text": "Orals & Oral Sessions\nSY21A - Providing Accessible and Credible Greenhouse Gas Information from the U.S. Government and Partners to Meet User Needs\n📅 Dec 10, 2024, 🕣 08:30 AM - 10:00 AM EST, 📍 Independence D (Marriott Marquis)\nDuring this session, we will demonstrate how the US GHG Center is playing a pivotal role in implementing the “National Strategy to Advance an Integrated US Greenhouse Gas Measurement, Monitoring, and Information System” (GHGMMIS) and discuss forthcoming refinements and co-development initiatives between the U.S. Government and its stakeholders for 2025 and beyond.\nIN33E-03 The U.S. Greenhouse Gas Center: A Trusted Online Platform for Data Access, Visualization, and Analysis\n📅 Dec 11, 2024, 🕣 02:30 PM - 02:40 PM EST, 📍 Marquis 3-4 (Marriott Marquis)\nThis presentation will provide an overview of the development of the US GHG Center portal and underlying data system throughout the project’s beta phase. Its current status and plans for future capabilities will also be discussed.\nIN43D-01U.S. Greenhouse Gas Center Cyberinfrastructure: Automating Data Discovery, Transformation and STAC Management\n📅 Dec 12, 2024, 🕣 02:10 PM - 02:40 PM EST, 📍 Marquis 12-13 (Marriott Marquis)\nThe US GHG Center system leverages analysis-ready cloud-optimized data for dissemination, analysis, and visualization of greenhouse gas datasets. With regular data additions and routine updates, this presentation provides an overview of an automated pipeline that has been developed to help integrate and maintain the datasets accessible from the US GHG Center portal.\nGC51E-03 Federally Coordinated Greenhouse Gas Information for Decision Making\n📅 Dec 13, 2024, 🕣 8:54 AM - 9:06 AM EST, 📍 103 A-B (Convention Center)\nAfter extensive stakeholder engagement, the US GHG Center is re-envisioning and exploring co-production of its capabilities, products, and datasets to better serve its users, especially policy makers. This presentation will feature findings from the demonstration phase stakeholder engagement process and the evolution of the stakeholder engagement strategy to better serve domestic decision making."
+    "text": "Orals & Oral Sessions\nSY21A - Providing Accessible and Credible Greenhouse Gas Information from the U.S. Government and Partners to Meet User Needs\n📅 Dec 10, 2024, 🕣 08:30 AM - 10:00 AM EST, 📍 Independence D (Marriott Marquis)\nDuring this session, we will demonstrate how the US GHG Center is playing a pivotal role in implementing the “National Strategy to Advance an Integrated US Greenhouse Gas Measurement, Monitoring, and Information System” (GHGMMIS) and discuss forthcoming refinements and co-development initiatives between the U.S. Government and its stakeholders for 2025 and beyond.\nA23P-05 - Identifying, quantifying, and attributing methane and carbon dioxide point source emissions from space with EMIT\n📅 Dec 10, 2024, 🕣 02:55 PM - 03:05 PM EST, 📍 154 A-B (Convention Center)\nIN33E-03 The U.S. Greenhouse Gas Center: A Trusted Online Platform for Data Access, Visualization, and Analysis\n📅 Dec 11, 2024, 🕣 02:30 PM - 02:40 PM EST, 📍 Marquis 3-4 (Marriott Marquis)\nThis presentation will provide an overview of the development of the US GHG Center portal and underlying data system throughout the project’s beta phase. Its current status and plans for future capabilities will also be discussed.\nIN43D-01U.S. Greenhouse Gas Center Cyberinfrastructure: Automating Data Discovery, Transformation and STAC Management\n📅 Dec 12, 2024, 🕣 02:10 PM - 02:40 PM EST, 📍 Marquis 12-13 (Marriott Marquis)\nThe US GHG Center system leverages analysis-ready cloud-optimized data for dissemination, analysis, and visualization of greenhouse gas datasets. With regular data additions and routine updates, this presentation provides an overview of an automated pipeline that has been developed to help integrate and maintain the datasets accessible from the US GHG Center portal.\nGC51E-03 Federally Coordinated Greenhouse Gas Information for Decision Making\n📅 Dec 13, 2024, 🕣 8:54 AM - 9:06 AM EST, 📍 103 A-B (Convention Center)\nAfter extensive stakeholder engagement, the US GHG Center is re-envisioning and exploring co-production of its capabilities, products, and datasets to better serve its users, especially policy makers. This presentation will feature findings from the demonstration phase stakeholder engagement process and the evolution of the stakeholder engagement strategy to better serve domestic decision making."
   },
   {
     "objectID": "ghg-center-at-agu-2024.html#posters-poster-sessions",
     "href": "ghg-center-at-agu-2024.html#posters-poster-sessions",
     "title": "The US GHG Center at American Geophysical Union Annual Meeting 2024",
     "section": "Posters & Poster Sessions",
-    "text": "Posters & Poster Sessions\nSY23D - Providing Accessible and Credible Greenhouse Gas Information from the US Government and Partners to Meet User Needs\n📅 Dec 10, 2024, 🕣 01:40 PM - 05:30 PM EST, 📍 Hall B-C (Poster Hall) (Convention Center)"
+    "text": "Posters & Poster Sessions\nA21K-1921 - Estimation of CH4 Emission Rates Using Statistical Inversion of a Gaussian Plume Model 📅 Dec 10, 2024, 🕣 08:30 AM - 12:20 PM EST, 📍 Hall B-C (Poster Hall) (Convention Center)\nA21K-1918 - Mapping Greenhouse Gas Emissions with AVIRIS-NG in NASA’s STAQS Airborne Campaign\n📅 Dec 10, 2024, 🕣 08:30 AM - 12:20 PM EST, 📍 Hall B-C (Poster Hall) (Convention Center)\nSY21A - Large Emission Events Identified from Imaging Spectroscopy are Supporting Decision-making and Interagency Activities through the U. S. Greenhouse Gas Center\n📅 Dec 10, 2024, 🕣 01:40 PM - 05:30 PM EST, 📍 Hall B-C (Poster Hall) (Convention Center)\nSY23D - Providing Accessible and Credible Greenhouse Gas Information from the US Government and Partners to Meet User Needs\n📅 Dec 10, 2024, 🕣 01:40 PM - 05:30 PM EST, 📍 Hall B-C (Poster Hall) (Convention Center)\nDuring this session, we will demonstrate how the US GHG Center is playing a pivotal role in implementing the “National Strategy to Advance an Integrated US Greenhouse Gas Measurement, Monitoring, and Information System” (GHGMMIS) and discuss forthcoming refinements and co-development initiatives between the U.S. Government and its stakeholders for 2025 and beyond.\nGC41H-0035 - Sensitivity and Uncertainty in Gas Detection using Matched Filters in Imaging Spectroscopy\n📅 Dec 12, 2024, 🕣 08:30 AM - 12:20 PM EST, 📍 Hall B-C (Poster Hall) (Convention Center)"
   },
   {
     "objectID": "prerequisites.html",
@@ -213,7 +207,7 @@
     "href": "index.html#description",
     "title": "Advancing Open Science Greenhouse Gas Emission Data Analysis Using the U.S. Greenhouse Gas Center’s Jupyter Hub",
     "section": "Description",
-    "text": "Description\nThis half-day workshop will provide hands-on practice to efficiently use the U.S. Greenhouse Gas Center (US GHG Center) portal key datasets, open-source tools, and computing resources for exploring, visualizing, analyzing and communicating science related to greenhouse gases.\nThe US GHG Center was created to provide curated, trusted greenhouse gas data and information via a user interface, QGIS or cloud computing environment to make it easier to access, use and understand data from one centralized location regardless of data producer or data storage location. The GHG Center portal provides cloud optimized access to a growing set of federal and non-federal data. The contents reflect transparency in both data and methods, to address different end user needs and to bring together actionable information from multiple sources.\nWorkshop activities encompass exploration of several science questions and activities using the US GHG Center services and tools. Participants will learn from GHG specialists about the latest science or policies that can be identified in the data for a given region or location. Attendees will produce trends over time, visually compare data from selected times, utilize code notebooks to compare datasets and develop detailed figures and comparison charts and to summarize and share results. Example python code will be provided so that users can gain practice at using and adapting the open code and focus more on the activity than on building new code given the time limitations.",
+    "text": "Description\nThis half-day workshop will provide hands-on practice with efficiently using the U.S. Greenhouse Gas Center (US GHG Center) portal datasets, open-source tools, and computing resources for exploring, visualizing, and analyzing greenhouse gas data.\nThe US GHG Center portal was created to provide users with access to curated, trusted, and user-friendly greenhouse gas data and information. The portal contents reflect transparency in both data and methods to address different end user needs and to bring together actionable information from multiple sources. The portal contains a growing collection of federal and non-federal data to choose from.\nWorkshop activities encompass a hands-on demonstration of science questions using activities and portal data, services and tools. Participants will learn from GHG specialists about the latest science for a given region or location as they use the interface, hub cloud computing or QGIS to visualize and analyze the data. Feedback will be solicited to help improve user services and tools. Attendees will produce trends over time, compare data across selected times, utilize code notebooks with different datasets and develop detailed figures and charts. Example python code will be provided so that users can gain practice at using and adapting the open code and focus more on the activity than on building new code given the time limitations.",
     "crumbs": [
       "SCHEDULE - US GHG Center at AGU 2024",
       "Welcome"
@@ -224,7 +218,7 @@
     "href": "index.html#learning-outcomes",
     "title": "Advancing Open Science Greenhouse Gas Emission Data Analysis Using the U.S. Greenhouse Gas Center’s Jupyter Hub",
     "section": "Learning Outcomes",
-    "text": "Learning Outcomes\nUpon completing this workshop, participants will be able to:\n\nUnderstand what GHG products are available in the US GHG Center portal and use the data to answer scientific questions\nUse the US GHG Center portal to explore and compare existing datasets and data layers\nEmploy Jupyter notebooks to perform data analysis and visualization of Earth science data in the cloud\nGain understanding of GIS workflows\nProduce visualizations and images for a report summarizing the activity and knowledge gained\nUnderstand principles for contributing to open-sourced software projects",
+    "text": "Learning Outcomes\nUpon completing this workshop, participants will be able to:\n\nUnderstand what GHG data products are available in the US GHG Center portal and use the data to answer scientific questions.\nUse the US GHG Center exploration and analysis environment to perform basic exploratory analyses of existing datasets and data layers.\nEmploy Jupyter notebooks to perform data analysis and visualization of US GHG Center data in the cloud.\nInteract with US GHG Center data using standard GIS workflows and APIs.",
     "crumbs": [
       "SCHEDULE - US GHG Center at AGU 2024",
       "Welcome"
@@ -255,14 +249,14 @@
   {
     "objectID": "sections/activity-1/index.html",
     "href": "sections/activity-1/index.html",
-    "title": "Use of Portal Data Toolkit Interfaces and Tools",
+    "title": "Topic Learning Set 1 - Exploring Wetland Methane Emissions (75 min)",
     "section": "",
-    "text": "Coming Soon\nClick here to access the slides.",
+    "text": "Activity 1: Start in Portal DataToolkit Page and Explore and Visualize Wetland Data (15 min)\nUse the Explore and Analysis environment and special GHG Center tools to better understand the differences in emissions over space and time.\nActivity 2: Use Jupyter Notebooks to Explore Data in the GHG Center Jupyter Hub (30 min)\nSign in and set up Jupyter hub environments to use open source tools and code. Access the GHG STAC data and data from other sources to create plots, time series and linear regressions.\nActivity 3: Use GHG Center Data in QGIS (30 min)\nLearn how GHG STAC API and datasets are integrated into QGIS and how to use GHG Data with other NASA CMR STAC data. Relate data understanding to actionable outcomes.\nUser feedback discussion - What did you like or dislike about the portal tools?",
     "crumbs": [
       "SCHEDULE - US GHG Center at AGU 2024",
       "Sections",
-      "Activity 1 - Use of Portal Data Toolkit Interfaces and Tools",
-      "Use of Portal Data Toolkit Interfaces and Tools"
+      "Activity Set 1 - Exploring Wetland Methane Emissions",
+      "Topic Learning Set 1 - Exploring Wetland Methane Emissions (75 min)"
     ]
   },
   {
@@ -270,13 +264,7 @@
     "href": "sections/activity-3/index.html",
     "title": "Explore Data Integration with QGIS",
     "section": "",
-    "text": "Coming Soon\nClick here to access the slides.",
-    "crumbs": [
-      "SCHEDULE - US GHG Center at AGU 2024",
-      "Sections",
-      "Activity 3 - Explore Data Integration with QGIS",
-      "Explore Data Integration with QGIS"
-    ]
+    "text": "Coming Soon\nClick here to access the slides."
   },
   {
     "objectID": "sections/us-ghg-center-and-veda/index.html",
