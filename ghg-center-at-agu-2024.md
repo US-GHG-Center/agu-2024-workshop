@@ -87,3 +87,39 @@ During this session, we will demonstrate how the US GHG Center is playing a pivo
 📅 Dec 12, 2024, 
 🕣 08:30 AM - 12:20 PM EST, 
 📍 Hall B-C (Poster Hall) (Convention Center)
+
+## Exhibit Hall
+
+**NASA Hyperwall: The U.S. Greenhouse Gas Center: Working to improve the quality, transparency, and accessibility of GHG information**
+
+📅 Dec 10, 2024, 
+🕣 04:00 PM - 04:15 PM EST, 
+📍 NASA Booth (Exhibit Hall)
+
+In this presentation, we highlight recent progress enabled by NASA and its federal partner agencies, EPA, NIST and NOAA, including data visualization and analysis, coordination of airborne and ground-based observations, methods for building trust and transparency in public and private satellite data, and development of integrated modeling systems. 
+
+**NASA Earth Data Exhibit Table: US GHG Center**
+
+📅 Dec 11, 2024, 
+🕣 12:00 PM - 02:00 PM EST, 
+📍 NASA Booth (Exhibit Hall)
+
+Join us in the NASA booth to connect with scientists from the US GHG Center and hear about the latest innovations in greenhouse gas observations and models. 
+
+**Earth Information Center: GHG Dashboard**
+
+📅 Dec 11, 2024, 
+🕣 2:00 PM - 04:00 PM EST, 
+📍 NASA Booth (Exhibit Hall)
+
+The Earth Information Center (EIC) consolidates data and insights on how Earth is changing from across the US federal government. US GHG Center Project Scientist, Lesley Ott (NASA), will be available to share and answer questions about the EIC's greenhouse gas dashboard. 
+
+## Media Events
+
+**The U.S. Greenhouse Gas Center: Supporting cooperation in public and private GHG information**
+
+📅 Dec 12, 2024, 
+🕣 10:00 AM - 11:00 AM EST, 
+📍 AGU Media Center, Woodley Park Room, Marriott Marquis Meeting Level 3
+
+This media availability session features highlights on how U.S. government agencies are working alongside the private sector to coordinate enhanced measurement, reporting, and analysis of GHG information. Experts from NASA, NIST, NOAA and Carbon Mapper will be available to answer questions from media.
