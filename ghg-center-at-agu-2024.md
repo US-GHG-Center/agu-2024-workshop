@@ -74,14 +74,6 @@ After extensive stakeholder engagement, the US GHG Center is re-envisioning and 
 🕣 01:40 PM - 05:30 PM EST, 
 📍  Hall B-C (Poster Hall) (Convention Center)
 
-[**SY23D - Providing Accessible and Credible Greenhouse Gas Information from the US Government and Partners to Meet User Needs**](https://agu.confex.com/agu/agu24/meetingapp.cgi/Session/226835)
-
-📅 Dec 10, 2024, 
-🕣 01:40 PM - 05:30 PM EST, 
-📍 Hall B-C (Poster Hall) (Convention Center)
-
-During this session, we will demonstrate how the US GHG Center is playing a pivotal role in implementing the “National Strategy to Advance an Integrated US Greenhouse Gas Measurement, Monitoring, and Information System” (GHGMMIS) and discuss forthcoming refinements and co-development initiatives between the U.S. Government and its stakeholders for 2025 and beyond.
-
 [**GC41H-0035 - Sensitivity and Uncertainty in Gas Detection using Matched Filters in Imaging Spectroscopy**](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1680662)
 
 📅 Dec 12, 2024, 

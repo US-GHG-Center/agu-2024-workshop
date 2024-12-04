@@ -1,6 +1,0 @@
----
-title: Explore Data Integration with QGIS
----
-Coming Soon
-
-[Click here to access the slides.]()
