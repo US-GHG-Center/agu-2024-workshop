@@ -26,6 +26,7 @@ This half-day workshop will provide hands-on practice to efficiently use the U.S
 
 During this session, we will demonstrate how the US GHG Center is playing a pivotal role in implementing the “National Strategy to Advance an Integrated US Greenhouse Gas Measurement, Monitoring, and Information System” (GHGMMIS) and discuss forthcoming refinements and co-development initiatives between the U.S. Government and its stakeholders for 2025 and beyond.
 
+
 [**A23P-05 - Identifying, quantifying, and attributing methane and carbon dioxide point source emissions from space with EMIT**](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1682479)
 
 📅 Dec 10, 2024, 
@@ -74,11 +75,70 @@ After extensive stakeholder engagement, the US GHG Center is re-envisioning and 
 🕣 01:40 PM - 05:30 PM EST, 
 📍  Hall B-C (Poster Hall) (Convention Center)
 
+[**SY23D-2493 Where GHG Information Fits in Climate Action**](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1746641)
+
+📅 Dec 10, 2024, 
+🕣 01:40 PM - 05:30 PM EST, 
+📍  Hall B-C (Poster Hall) (Convention Center)
+
+[**SY23D-2513 Supporting the U.S. GHG Center with novel high-resolution modeling of terrestrial carbon stocks and fluxes**](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1700980)
+
+📅 Dec 10, 2024, 
+🕣 01:40 PM - 05:30 PM EST, 
+📍  Hall B-C (Poster Hall) (Convention Center)
+
+[**SY23D-2508 Retrieval Algorithms in the U.S. Greenhouse Gas Center: Applications and Vision**](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1569838)
+
+📅 Dec 10, 2024, 
+🕣 01:40 PM - 05:30 PM EST, 
+📍  Hall B-C (Poster Hall) (Convention Center)
+
+[**SY23D-2494 Prototyping new science products and stakeholder activities for the US GHG Center**](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1697935)
+
+📅 Dec 10, 2024, 
+🕣 01:40 PM - 05:30 PM EST, 
+📍  Hall B-C (Poster Hall) (Convention Center)
+
+[**SY23D-2504 Improving Wetland Methane Flux Estimates to Meet User Needs**](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1708795)
+
+📅 Dec 10, 2024, 
+🕣 01:40 PM - 05:30 PM EST, 
+📍  Hall B-C (Poster Hall) (Convention Center)
+
+[**A Multiscale Greenhouse Gas System in Support of the U.S. GHG Center**](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1533110)
+
+📅 Dec 10, 2024, 
+🕣 01:40 PM - 05:30 PM EST, 
+📍  Hall B-C (Poster Hall) (Convention Center)
+
+[**SY23D-2496 NOAA's emerging capabilities for tracking greenhouse gas emissions and removals from regional to global scales in the context of the US GHG Center**](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1657162)
+
+📅 Dec 10, 2024, 
+🕣 01:40 PM - 05:30 PM EST, 
+📍  Hall B-C (Poster Hall) (Convention Center)
+
 [**GC41H-0035 - Sensitivity and Uncertainty in Gas Detection using Matched Filters in Imaging Spectroscopy**](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1680662)
 
 📅 Dec 12, 2024, 
 🕣 08:30 AM - 12:20 PM EST, 
 📍 Hall B-C (Poster Hall) (Convention Center)
+
+## Town Hall
+[**TH13C - Becoming a Climate-Ready Nation: Interagency Collaboration to Advance Greenhouse Gas Observations, Understanding, and Applications**](https://agu.confex.com/agu/agu24/meetingapp.cgi/Session/225913)
+
+📅 Dec 09, 2024, 
+🕣 12:30 PM - 01:30 PM EST, 
+📍 Salon I (Convention Center)
+
+This Town Hall focuses on the outcomes of a 2024 seminar series from the USGCRP Observations Interagency Working Group on becoming a climate ready nation, with particular emphasis on recommendations that would advance GHG measurements, awareness, collaborations, and actions to help us become a climate-ready nation.
+
+[**TH53C - Implementing the U.S. National Strategy to Advance an Integrated Greenhouse Gas Measurement, Monitoring, and Information System (GHGMMIS)**](https://agu.confex.com/agu/agu24/meetingapp.cgi/Session/224946)
+
+📅 Dec 13, 2024, 
+🕣 12:30 PM - 01:30 PM EST, 
+📍 207 A (Convention Center)
+
+This AGU Town Hall will provide an update to the scientific community on the National Strategy to Advance an Integrated U.S. Greenhouse Gas Measurement, Monitoring and Information System (GHGMMIS) activities and perspectives from those working on the implementation of the National Strategy.
 
 ## Exhibit Hall
 
