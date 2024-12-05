@@ -1,6 +1,0 @@
----
-title: QGIS in the Hub
----
-Coming Soon
-
-[Click here to access the slides.]()

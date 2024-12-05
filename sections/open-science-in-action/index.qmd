@@ -1,6 +1,0 @@
----
-title: Open Science in Action
----
-Coming Soon
-
-[Click here to access the slides.]()
