@@ -49,28 +49,27 @@ website:
       - href: prerequisites.md
         text: Prerequisites
    
-      - section: Sections
+      - section: Agenda
         contents:
           - text: Welcome
             href: sections/welcome/index.qmd
           - text: Overview of the U.S. Greenhouse Gas Center and the Science
             href: sections/overview-us-ghg-center/index.qmd
-          - section: US GHG Center and VEDA / Data Access and Visualization
-            contents:
-              - sections/us-ghg-center-and-veda/index.qmd
-              - sections/us-ghg-center-and-veda/qgis-in-hub.qmd
+          - href: sections/activity-1/wetland.qmd
           - section: Activity Set 1 - Exploring Wetland Methane Emissions 
+            href: sections/activity-1/index.qmd
             contents:
-              - sections/activity-1/index.qmd
+              - sections/activity-1/lpjeosim-wetlandch4-grid-v1_User_Notebook.ipynb
+          - href: sections/activity-2/urban.qmd
           - section: Activity Set 2 - Exploring Urban Greenhouse Gas Emissions
+            href: sections/activity-2/index.qmd
             contents:
-              - sections/activity-2/index.qmd
+              - sections/activity-2/gra2pes-ghg-monthgrid-v1_User_Notebook.ipynb
           - text: Closing
             href: sections/closing/index.qmd
       - href: team.md 
         text: Team             
-                   
-          
+
 format:
   html:
     grid:

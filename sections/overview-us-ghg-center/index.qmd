@@ -1,12 +1,11 @@
 ---
 title: "Overview of the U.S. Greenhouse Gas Center"
 ---
-**Introduction** (20 min)
 
-Introduction and participant survey
+- What is the U.S. Greenhouse Gas Center?
 
-Welcome and GHG Center background
+    ...Slides coming soon...
 
-Introduction to US GHG Center portal, stories, topics, data, information, tools, news and information
+- A brief introduction to US GHG Center portal.
 
-[Click here to access the slides.]()
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRuteEGVszJgUl_n3pCFm5dVyYLZYWr8VMT-4fghQCozgK_6PAhLmlTGkYQinxPUaNscaWESu9_aKgC/embed?start=true&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>

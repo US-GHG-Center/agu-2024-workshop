@@ -1,6 +1,5 @@
 ---
 title: Closing Remarks
 ---
-Coming Soon
 
-[Click here to access the slides.]()
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQPQt35yvhAnX1Pp5Ilp6KRgCWwuHoglG4oGFW1hlRTCJvmrShPz31NaADZ0yutEQVah_NFK4vrOOyB/embed?start=true&loop=true&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
