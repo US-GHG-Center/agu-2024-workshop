@@ -1,0 +1,14 @@
+# Use GHG Center Data in QGIS
+
+## Set up instructions
+
+1. In the Hub menu, select the “QGIS on Linux Desktop” option and click “Start”
+2. In the desktop, double-click the “QGIS Desktop” icon to open QGIS. NOTE: You can ignore the “Open Sans” font error.
+3. Double click the “New empty project” in the window on the right
+4. In QGIS, go to “Plugins → Manage and install plugins”. Search for “STAC”; you should see the “STAC API Browser” plugin. Click the checkbox next to “STAC API Browser” to enable the plugin. Confirm that the plugin is installed and enabled by clicking on the “Plugins” menu; you should see “STAC API Browser Plugin”.
+
+## ⚠️ WARNING
+
+Please do not click the "Install Updates..." button.
+
+...if you do accidentally update the plugin, you can reset your QGIS configs by deleting `~/.local/share/QGIS` and `~/.cache/QGIS`.

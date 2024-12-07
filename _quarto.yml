@@ -60,6 +60,7 @@ website:
             href: sections/activity-1/index.qmd
             contents:
               - sections/activity-1/lpjeosim-wetlandch4-grid-v1_User_Notebook.ipynb
+              - sections/activity-1/qgis-1.qmd
           - href: sections/activity-2/urban.qmd
           - section: Activity Set 2 - Exploring Urban Greenhouse Gas Emissions
             href: sections/activity-2/index.qmd

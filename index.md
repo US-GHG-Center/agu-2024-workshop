@@ -18,13 +18,11 @@ Workshop activities encompass a hands-on demonstration of science questions usin
 
 Upon completing this workshop, participants will be able to:
 
-1. Understand what GHG data products are available in the US GHG Center portal and use the data to answer scientific questions.
-
-2. Use the US GHG Center exploration and analysis environment to perform basic exploratory analyses of existing datasets and data layers.
-
-3. Employ Jupyter notebooks to perform data analysis and visualization of US GHG Center data in the cloud.
-
-4. Interact with US GHG Center data using standard GIS workflows and APIs.
+1. Better understand GHG products in the U.S. Greenhouse Gas Center and use the data to answer science questions
+2. Use the Exploration and Analysis environment to examine existing datasets and data layers to learn more about GHG emissions patterns
+3. Use Python and Jupyter Notebooks for data analysis and visualization of Earth science data in the cloud
+4. Transition to QGIS and visualize GHG and other science data in a GIS environment with GIS workflows and APIs
+5. Understand basic principles for contributing to open-sourced software projects
 
 
 ## Target Audience
