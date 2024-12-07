@@ -59,6 +59,7 @@ website:
           - section: Activity Set 1 - Exploring Wetland Methane Emissions 
             href: sections/activity-1/index.qmd
             contents:
+              - sections/activity-1/basics.qmd
               - sections/activity-1/lpjeosim-wetlandch4-grid-v1_User_Notebook.ipynb
               - sections/activity-1/qgis-1.qmd
           - href: sections/activity-2/urban.qmd
