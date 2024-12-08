@@ -12,6 +12,5 @@ pystac-client
 requests
 seaborn
 stackstac
-python
 rioxarray
 hvplot.xarray
