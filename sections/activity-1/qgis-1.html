@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
 <link href="../../sections/activity-2/urban.html" rel="next">
-<link href="../../sections/activity-1/lpjeosim-wetlandch4-grid-v1_User_Notebook.html" rel="prev">
+<link href="../../sections/activity-1/qgis-setup.html" rel="prev">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -103,7 +103,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../sections/welcome/index.html">Agenda</a></li><li class="breadcrumb-item"><a href="../../sections/activity-1/index.html">Activity Set 1 - Exploring Wetland Methane Emissions</a></li><li class="breadcrumb-item"><a href="../../sections/activity-1/qgis-1.html">Use GHG Center Data in QGIS</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../sections/welcome/index.html">Agenda</a></li><li class="breadcrumb-item"><a href="../../sections/activity-1/index.html">Activity Set 1 - Exploring Wetland Methane Emissions</a></li><li class="breadcrumb-item"><a href="../../sections/activity-1/qgis-1.html">Use GHG Center Data in QGIS - Part 1</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -200,8 +200,14 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../../sections/activity-1/qgis-setup.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">QGIS in the Hub - Setup</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../../sections/activity-1/qgis-1.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Use GHG Center Data in QGIS</span></a>
+ <span class="menu-text">Use GHG Center Data in QGIS - Part 1</span></a>
   </div>
 </li>
       </ul>
@@ -227,6 +233,12 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Interactive Session: Exploring Urban Greenhouse Gas Emissions</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../sections/activity-2/qgis-2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Use GHG Center Data in QGIS - Part 2</span></a>
+  </div>
+</li>
       </ul>
   </li>
           <li class="sidebar-item">
@@ -250,26 +262,95 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../sections/welcome/index.html">Agenda</a></li><li class="breadcrumb-item"><a href="../../sections/activity-1/index.html">Activity Set 1 - Exploring Wetland Methane Emissions</a></li><li class="breadcrumb-item"><a href="../../sections/activity-1/qgis-1.html">Use GHG Center Data in QGIS</a></li></ol></nav></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../sections/welcome/index.html">Agenda</a></li><li class="breadcrumb-item"><a href="../../sections/activity-1/index.html">Activity Set 1 - Exploring Wetland Methane Emissions</a></li><li class="breadcrumb-item"><a href="../../sections/activity-1/qgis-1.html">Use GHG Center Data in QGIS - Part 1</a></li></ol></nav></header>
 
 
 
 
-<section id="use-ghg-center-data-in-qgis" class="level1">
-<h1>Use GHG Center Data in QGIS</h1>
-<section id="set-up-instructions" class="level2">
-<h2 class="anchored" data-anchor-id="set-up-instructions">Set up instructions</h2>
+<section id="use-ghg-center-data-in-qgis---part-1" class="level1">
+<h1>Use GHG Center Data in QGIS - Part 1</h1>
+<section id="adding-the-lpj-wetlands-data" class="level3">
+<h3 class="anchored" data-anchor-id="adding-the-lpj-wetlands-data">Adding the LPJ Wetlands data</h3>
 <ol type="1">
-<li>In the Hub menu, select the “QGIS on Linux Desktop” option and click “Start”</li>
-<li>In the desktop, double-click the “QGIS Desktop” icon to open QGIS. NOTE: You can ignore the “Open Sans” font error.</li>
-<li>Double click the “New empty project” in the window on the right</li>
-<li>In QGIS, go to “Plugins → Manage and install plugins”. Search for “STAC”; you should see the “STAC API Browser” plugin. Click the checkbox next to “STAC API Browser” to enable the plugin. Confirm that the plugin is installed and enabled by clicking on the “Plugins” menu; you should see “STAC API Browser Plugin”.</li>
+<li>Go to “Plugins → STAC API Browser Plugin → Open STAC API Browser” to open the STAC browser. In the “Connections” menu, make sure “US GHG Center STAC” is selected.</li>
+<li>Click the “Fetch collections” button. You should see a list of all available datasets.</li>
+<li>Select “(Daily) Wetland Methane Emissions, LPJ-EOSIM Model v2”. Then, click “Search. This will take a few seconds.</li>
+<li>When complete, switch to the “Results” tab at the top. You should see several dates for LPJ-EOSIM data outputs. Select the one acquired 7/31/2024 and click “View assets”. In the opened window, find the “Ensemble mean” output (should be the third one), click “Select to add as layer”, and then click “Add assets as layers”. The dataset should appear in rendered form in your QGIS window.</li>
+<li>You can now close all the popup windows and focus on the main QGIS window.</li>
 </ol>
 </section>
-<section id="warning" class="level2">
-<h2 class="anchored" data-anchor-id="warning">⚠️ WARNING</h2>
-<p>Please do not click the “Install Updates…” button.</p>
-<p>…if you do accidentally update the plugin, you can reset your QGIS configs by deleting <code>~/.local/share/QGIS</code> and <code>~/.cache/QGIS</code>.</p>
+<section id="loading-some-shapefiles" class="level3">
+<h3 class="anchored" data-anchor-id="loading-some-shapefiles">Loading some shapefiles</h3>
+<ol type="1">
+<li>In the QGIS menu, go to “Layer → Add Layer → Add vector layer”. This should open a Data Source Manager window.</li>
+<li>Make sure the window is focused on “Vector” and the Source Type is “File”. Click the “…” next to the “Source” box to open a new file browser window. Find the tl_2024_us_state.zip file, select it, and click “Open”. In the Data Source Manager window, click “Add”.
+<ol type="1">
+<li>NOTE: You may be prompted by a menu asking how to reproject the dataset to match the project. Select the first option.</li>
+</ol></li>
+<li>Using the same methods, also add the ne_10m_lakes and ne_10m_rverse_lake_centerlines vector layers.</li>
+<li>Modify the aesthetics of the resulting map to make it easier to visually explore. For each layer, right click it, select “Properties”, and then, in the Symbology menu, modify the color mapping to improve the visuals of the map.
+<ol type="1">
+<li>Change the lakes layer to use the preset “outline blue”.</li>
+<li>Change the LPJ methane layer to use a Singleband pseudocolor render type, with a “Magma” color ramp, and set min/max values to “Cumulative count cut – 2% to 100%”.</li>
+</ol></li>
+</ol>
+</section>
+<section id="calculating-zonal-statistics" class="level3">
+<h3 class="anchored" data-anchor-id="calculating-zonal-statistics">Calculating zonal statistics</h3>
+<ol type="1">
+<li>Show the processing toolbox (if it isn’t shown already): View → Panels → Processing Toolbox (check)</li>
+<li>In the Processing Toolbox, search for “Zonal statistics”. Double click the tool to open it. (It should be under “Raster analysis”</li>
+<li>In the Zonal statistics window, select the following:
+<ol type="1">
+<li>Input layer: The vector layer against which to aggregate (in this case, tl_2024_us_state.shp)</li>
+<li>Raster layer: The raster layer that will be aggregated.</li>
+<li>Raster band: The band to aggregate (should only be one band)</li>
+<li>Statistics to calculate: Select Sum and Mean (and any others of interest).</li>
+</ol></li>
+<li>You should now have a new (temporary) layer called “Zonal statistics” displayed, but all as one color.</li>
+<li>Visualize the differences in the values:
+<ol type="1">
+<li>Right click on the Zonal Statistics layer</li>
+<li>Select “Properties”</li>
+<li>At the top of the Symbology tab, change “Single Symbol” to “Graduated”.</li>
+<li>Select “_sum” as the “value”.</li>
+<li>Select “equal interval” as the classification scheme and click “classify”.</li>
+<li>Click “Apply” and close out of the window.</li>
+</ol></li>
+<li>The resulting map gives the total methane emissions by state.
+<ol type="1">
+<li><strong>Question:</strong> Why is Alaska the only state with any colors?</li>
+<li><strong>Answer:</strong> Because it’s so big, it has a lot of CH4 pixels, so the total emissions are large even if the per-pixel emissions are not.</li>
+</ol></li>
+<li>To inspect the values for any particular state:
+<ol type="1">
+<li>Select the corresponding Zonal Statistics layer in the Layers box.</li>
+<li>In the Attributes Toolbar, select the Identify Features tool (should be in the first row under the QGIS menus; look for the icon of an arrow pointing at an “i” in a circle)</li>
+</ol></li>
+</ol>
+<p><strong>Exercise</strong>:</p>
+</section>
+<section id="differences-between-two-rasters" class="level3">
+<h3 class="anchored" data-anchor-id="differences-between-two-rasters">Differences between two rasters</h3>
+<ol type="1">
+<li>Following the method above, load daily LPJ-EOSIM data for 2024-07-30, but instead of the ensemble mean, load the MERRA-2 and ERA-5 layers.</li>
+<li>Right click on each layer and give them a more abbreviated informative name (e.g., “LPJ ERA5/MERRA-2 2024-07-30”).</li>
+<li>In the tools panel, find and open the Raster calculator tool.</li>
+<li>In the Raster calculator tool, click the “…” next to “Input layers” and select the LPJ ERA5/MERRA-2 layers.</li>
+<li>Click the symbol next to the “Expression”.</li>
+<li>In the Expression window, double click the LPJ ERA5 layer to add it to the expression, then double click the LPJ MERRA-2 layer to add it to the expression. Note that the expression region is plain text, so you can easily manipulate it. Use this interface to produce an equation like the following: (“LPJ-ERA5” - “LPJ-MERRA2”) / (“LPJ-ERA5” + “LPJ-MERRA2”). Once you are satisfied, exit the Expression window.</li>
+<li>Leave the other fields at their defaults and click “run”. After a few seconds, you should see a new “Calculated” layer.</li>
+<li>Modify its visualization to more effectively spot differences (hint: try a “Singleband pseudocolor” with a “RdBl” color palette centered on zero).</li>
+</ol>
+</section>
+<section id="exploration-exercises" class="level3">
+<h3 class="anchored" data-anchor-id="exploration-exercises">Exploration exercises</h3>
+<ol type="1">
+<li>Experiment with tweaking your visualizations</li>
+<li>Look at other GHG-Center layers</li>
+<li>Look at some other shapefiles, aggregations etc.</li>
+<li>Look at more sophisticated raster calculations.</li>
+</ol>
 
 
 </section>
@@ -695,8 +776,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../sections/activity-1/lpjeosim-wetlandch4-grid-v1_User_Notebook.html" class="pagination-link" aria-label="Interactive Session: Complementing anthropogenic GHG emissions with natural GHG emissions and fluxes">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Interactive Session: Complementing anthropogenic GHG emissions with natural GHG emissions and fluxes</span>
+      <a href="../../sections/activity-1/qgis-setup.html" class="pagination-link" aria-label="QGIS in the Hub - Setup">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">QGIS in the Hub - Setup</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
