@@ -2,78 +2,82 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://us-ghg-center.github.io/agu-2024-workshop/sections/activity-2/urban.html</loc>
-    <lastmod>2024-12-08T15:22:53.393Z</lastmod>
+    <lastmod>2024-12-08T15:58:12.693Z</lastmod>
   </url>
   <url>
     <loc>https://us-ghg-center.github.io/agu-2024-workshop/sections/activity-2/gra2pes-ghg-monthgrid-v1_User_Notebook.html</loc>
-    <lastmod>2024-12-08T15:22:53.393Z</lastmod>
+    <lastmod>2024-12-08T15:58:12.693Z</lastmod>
   </url>
   <url>
     <loc>https://us-ghg-center.github.io/agu-2024-workshop/sections/welcome/index.html</loc>
-    <lastmod>2024-12-08T15:22:53.393Z</lastmod>
+    <lastmod>2024-12-08T15:58:12.693Z</lastmod>
   </url>
   <url>
     <loc>https://us-ghg-center.github.io/agu-2024-workshop/sections/activity-1/lpjeosim-wetlandch4-grid-v1_User_Notebook.html</loc>
-    <lastmod>2024-12-08T15:22:53.297Z</lastmod>
+    <lastmod>2024-12-08T15:58:12.597Z</lastmod>
   </url>
   <url>
     <loc>https://us-ghg-center.github.io/agu-2024-workshop/sections/activity-1/index.html</loc>
-    <lastmod>2024-12-08T15:22:53.293Z</lastmod>
+    <lastmod>2024-12-08T15:58:12.593Z</lastmod>
   </url>
   <url>
-    <loc>https://us-ghg-center.github.io/agu-2024-workshop/sections/overview-us-ghg-center/index.html</loc>
-    <lastmod>2024-12-08T15:22:53.393Z</lastmod>
-  </url>
-  <url>
-    <loc>https://us-ghg-center.github.io/agu-2024-workshop/chapters.html</loc>
-    <lastmod>2024-12-08T15:22:53.293Z</lastmod>
-  </url>
-  <url>
-    <loc>https://us-ghg-center.github.io/agu-2024-workshop/setup/setup_instructions.html</loc>
-    <lastmod>2024-12-08T15:22:53.397Z</lastmod>
-  </url>
-  <url>
-    <loc>https://us-ghg-center.github.io/agu-2024-workshop/agenda.html</loc>
-    <lastmod>2024-12-08T15:22:53.293Z</lastmod>
-  </url>
-  <url>
-    <loc>https://us-ghg-center.github.io/agu-2024-workshop/ghg-center-at-agu-2024.html</loc>
-    <lastmod>2024-12-08T15:22:53.293Z</lastmod>
-  </url>
-  <url>
-    <loc>https://us-ghg-center.github.io/agu-2024-workshop/prerequisites.html</loc>
-    <lastmod>2024-12-08T15:22:53.293Z</lastmod>
-  </url>
-  <url>
-    <loc>https://us-ghg-center.github.io/agu-2024-workshop/setup/prerequisites.html</loc>
-    <lastmod>2024-12-08T15:22:53.393Z</lastmod>
-  </url>
-  <url>
-    <loc>https://us-ghg-center.github.io/agu-2024-workshop/team.html</loc>
-    <lastmod>2024-12-08T15:22:53.397Z</lastmod>
+    <loc>https://us-ghg-center.github.io/agu-2024-workshop/sections/activity-1/eib_lpjeosim-wetlandch4-grid-v1_User_Notebook.html</loc>
+    <lastmod>2024-12-08T15:58:12.593Z</lastmod>
   </url>
   <url>
     <loc>https://us-ghg-center.github.io/agu-2024-workshop/index.html</loc>
-    <lastmod>2024-12-08T15:22:53.293Z</lastmod>
+    <lastmod>2024-12-08T15:58:12.589Z</lastmod>
+  </url>
+  <url>
+    <loc>https://us-ghg-center.github.io/agu-2024-workshop/team.html</loc>
+    <lastmod>2024-12-08T15:58:12.693Z</lastmod>
+  </url>
+  <url>
+    <loc>https://us-ghg-center.github.io/agu-2024-workshop/setup/prerequisites.html</loc>
+    <lastmod>2024-12-08T15:58:12.693Z</lastmod>
+  </url>
+  <url>
+    <loc>https://us-ghg-center.github.io/agu-2024-workshop/prerequisites.html</loc>
+    <lastmod>2024-12-08T15:58:12.589Z</lastmod>
+  </url>
+  <url>
+    <loc>https://us-ghg-center.github.io/agu-2024-workshop/ghg-center-at-agu-2024.html</loc>
+    <lastmod>2024-12-08T15:58:12.589Z</lastmod>
+  </url>
+  <url>
+    <loc>https://us-ghg-center.github.io/agu-2024-workshop/agenda.html</loc>
+    <lastmod>2024-12-08T15:58:12.589Z</lastmod>
+  </url>
+  <url>
+    <loc>https://us-ghg-center.github.io/agu-2024-workshop/setup/setup_instructions.html</loc>
+    <lastmod>2024-12-08T15:58:12.693Z</lastmod>
+  </url>
+  <url>
+    <loc>https://us-ghg-center.github.io/agu-2024-workshop/chapters.html</loc>
+    <lastmod>2024-12-08T15:58:12.589Z</lastmod>
+  </url>
+  <url>
+    <loc>https://us-ghg-center.github.io/agu-2024-workshop/sections/overview-us-ghg-center/index.html</loc>
+    <lastmod>2024-12-08T15:58:12.693Z</lastmod>
   </url>
   <url>
     <loc>https://us-ghg-center.github.io/agu-2024-workshop/sections/activity-1/qgis-1.html</loc>
-    <lastmod>2024-12-08T15:22:53.297Z</lastmod>
+    <lastmod>2024-12-08T15:58:12.597Z</lastmod>
   </url>
   <url>
     <loc>https://us-ghg-center.github.io/agu-2024-workshop/sections/activity-1/wetland.html</loc>
-    <lastmod>2024-12-08T15:22:53.297Z</lastmod>
+    <lastmod>2024-12-08T15:58:12.597Z</lastmod>
   </url>
   <url>
     <loc>https://us-ghg-center.github.io/agu-2024-workshop/sections/activity-1/basics.html</loc>
-    <lastmod>2024-12-08T15:22:53.293Z</lastmod>
+    <lastmod>2024-12-08T15:58:12.589Z</lastmod>
   </url>
   <url>
     <loc>https://us-ghg-center.github.io/agu-2024-workshop/sections/closing/index.html</loc>
-    <lastmod>2024-12-08T15:22:53.393Z</lastmod>
+    <lastmod>2024-12-08T15:58:12.693Z</lastmod>
   </url>
   <url>
     <loc>https://us-ghg-center.github.io/agu-2024-workshop/sections/activity-2/index.html</loc>
-    <lastmod>2024-12-08T15:22:53.393Z</lastmod>
+    <lastmod>2024-12-08T15:58:12.693Z</lastmod>
   </url>
 </urlset>
