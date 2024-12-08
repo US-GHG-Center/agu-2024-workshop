@@ -1,14 +1,63 @@
-# Use GHG Center Data in QGIS
+# Use GHG Center Data in QGIS - Part 1
 
-## Set up instructions
+### Adding the LPJ Wetlands data
 
-1. In the Hub menu, select the “QGIS on Linux Desktop” option and click “Start”
-2. In the desktop, double-click the “QGIS Desktop” icon to open QGIS. NOTE: You can ignore the “Open Sans” font error.
-3. Double click the “New empty project” in the window on the right
-4. In QGIS, go to “Plugins → Manage and install plugins”. Search for “STAC”; you should see the “STAC API Browser” plugin. Click the checkbox next to “STAC API Browser” to enable the plugin. Confirm that the plugin is installed and enabled by clicking on the “Plugins” menu; you should see “STAC API Browser Plugin”.
+1. Go to “Plugins → STAC API Browser Plugin → Open STAC API Browser” to open the STAC browser. In the “Connections” menu, make sure “US GHG Center STAC” is selected.
+2. Click the “Fetch collections” button. You should see a list of all available datasets.
+3. Select “(Daily) Wetland Methane Emissions, LPJ-EOSIM Model v2”. Then, click “Search. This will take a few seconds.
+4. When complete, switch to the “Results” tab at the top. You should see several dates for LPJ-EOSIM data outputs. Select the one acquired 7/31/2024 and click “View assets”. In the opened window, find the “Ensemble mean” output (should be the third one), click “Select to add as layer”, and then click “Add assets as layers”. The dataset should appear in rendered form in your QGIS window.
+5. You can now close all the popup windows and focus on the main QGIS window.
 
-## ⚠️ WARNING
+### Loading some shapefiles
 
-Please do not click the "Install Updates..." button.
+1. In the QGIS menu, go to “Layer → Add Layer → Add vector layer”. This should open a Data Source Manager window.
+2. Make sure the window is focused on “Vector” and the Source Type is “File”. Click the “...” next to the “Source” box to open a new file browser window. Find the tl_2024_us_state.zip file, select it, and click “Open”. In the Data Source Manager window, click “Add”.
+    1. NOTE: You may be prompted by a menu asking how to reproject the dataset to match the project. Select the first option.
+3. Using the same methods, also add the ne_10m_lakes and ne_10m_rverse_lake_centerlines vector layers.
+4. Modify the aesthetics of the resulting map to make it easier to visually explore. For each layer, right click it, select “Properties”, and then, in the Symbology menu, modify the color mapping to improve the visuals of the map.
+    1. Change the lakes layer to use the preset “outline blue”.
+    2. Change the LPJ methane layer to use a Singleband pseudocolor render type, with a “Magma” color ramp, and set min/max values to “Cumulative count cut – 2% to 100%”.
 
-...if you do accidentally update the plugin, you can reset your QGIS configs by deleting `~/.local/share/QGIS` and `~/.cache/QGIS`.
+### Calculating zonal statistics
+
+1. Show the processing toolbox (if it isn’t shown already): View → Panels → Processing Toolbox (check)
+2. In the Processing Toolbox, search for “Zonal statistics”. Double click the tool to open it. (It should be under “Raster analysis”
+3. In the Zonal statistics window, select the following:
+    1. Input layer: The vector layer against which to aggregate (in this case, tl_2024_us_state.shp)
+    2. Raster layer: The raster layer that will be aggregated.
+    3. Raster band: The band to aggregate (should only be one band)
+    4. Statistics to calculate: Select Sum and Mean (and any others of interest).
+4. You should now have a new (temporary) layer called “Zonal statistics” displayed, but all as one color.
+5. Visualize the differences in the values:
+    1. Right click on the Zonal Statistics layer
+    2. Select “Properties”
+    3. At the top of the Symbology tab, change “Single Symbol” to “Graduated”.
+    4. Select “\_sum” as the “value”.
+    5. Select “equal interval” as the classification scheme and click “classify”.
+    6. Click “Apply” and close out of the window.
+6. The resulting map gives the total methane emissions by state.
+    1. **Question:** Why is Alaska the only state with any colors?
+    2. **Answer:** Because it’s so big, it has a lot of CH4 pixels, so the total emissions are large even if the per-pixel emissions are not.
+7. To inspect the values for any particular state:
+    1. Select the corresponding Zonal Statistics layer in the Layers box.
+    2. In the Attributes Toolbar, select the Identify Features tool (should be in the first row under the QGIS menus; look for the icon of an arrow pointing at an “i” in a circle)
+
+**Exercise**:
+
+### Differences between two rasters
+
+1. Following the method above, load daily LPJ-EOSIM data for 2024-07-30, but instead of the ensemble mean, load the MERRA-2 and ERA-5 layers.
+2. Right click on each layer and give them a more abbreviated informative name (e.g., “LPJ ERA5/MERRA-2 2024-07-30”).
+3. In the tools panel, find and open the Raster calculator tool.
+4. In the Raster calculator tool, click the “...” next to “Input layers” and select the LPJ ERA5/MERRA-2 layers.
+5. Click the symbol next to the “Expression”.
+6. In the Expression window, double click the LPJ ERA5 layer to add it to the expression, then double click the LPJ MERRA-2 layer to add it to the expression. Note that the expression region is plain text, so you can easily manipulate it. Use this interface to produce an equation like the following: (“LPJ-ERA5” - “LPJ-MERRA2”) / (“LPJ-ERA5” + “LPJ-MERRA2”). Once you are satisfied, exit the Expression window.
+7. Leave the other fields at their defaults and click “run”. After a few seconds, you should see a new “Calculated” layer.
+8. Modify its visualization to more effectively spot differences (hint: try a “Singleband pseudocolor” with a “RdBl” color palette centered on zero).
+
+### Exploration exercises
+
+1. Experiment with tweaking your visualizations
+2. Look at other GHG-Center layers
+3. Look at some other shapefiles, aggregations etc.
+4. Look at more sophisticated raster calculations.

@@ -61,12 +61,14 @@ website:
             contents:
               - sections/activity-1/basics.qmd
               - sections/activity-1/lpjeosim-wetlandch4-grid-v1_User_Notebook.ipynb
+              - sections/activity-1/qgis-setup.qmd
               - sections/activity-1/qgis-1.qmd
           - href: sections/activity-2/urban.qmd
           - section: Activity Set 2 - Exploring Urban Greenhouse Gas Emissions
             href: sections/activity-2/index.qmd
             contents:
               - sections/activity-2/gra2pes-ghg-monthgrid-v1_User_Notebook.ipynb
+              - sections/activity-2/qgis-2.qmd
           - text: Closing
             href: sections/closing/index.qmd
       - href: team.md 

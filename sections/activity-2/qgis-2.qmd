@@ -1,0 +1,58 @@
+# Use GHG Center Data in QGIS - Part 2
+### Load data
+
+1. Open the STAC browser.
+2. In the STAC browser, select the two “Vulcan” collections and click “Search”.
+3. In the STAC browser **Results** tab, locate the vulcan_ffco2_yeargrid_v4_2021 dataset, click “View assets”, and add the “Total of all sectors CO2 emissions” layer to your map.
+4. As before, use the Layer → Add Vector Layer approach to find and add the US Census urban area (“tl_2024_us_uac20”) and combined statistical area (“tl_2024_us_cbsa”) to your map.
+5. As before, use the Zonal Statistics tool to calculate the sum and mean values by city. Rename the resulting layer to something like “Vulcan CSBA” (as appropriate).
+6. Right click the new Vulcan CSBA layer and click “Open Attribute Table”. In the attribute table, scroll all the way to the right and click on the “\_sum” field to sort by that field. Click again to switch the sorting order.
+    1. **Exercise:** Which CBSAs have the largest emissions?
+
+### Comparing GRA2PES and Vulcan
+
+**Exercise Questions**
+
+1\. Add Data:
+
+\- Add the **Vulcan** and **GRA2PES** total CO₂ emissions datasets from STAC
+
+\- Add the CBSA shapefile
+
+2\. Convert Monthly to Annual:
+
+\- Convert the **GRA2PES monthly CO₂ emissions** data to annual data using the _Raster Calculator_.
+
+3\. Perform Zonal Statistics:
+
+\- Conduct zonal statistics for both the Vulcan and GRA2PES datasets using the Combined Statistical Area (CBSA) shapefile.
+
+4\. Join Datasets and Analyze Differences:
+
+\- Join the annual CO₂ emissions data for both datasets.
+
+\- Use the _Join_ and the _Field Calculato_r to analyze the differences between the two datasets.
+
+Hint: Use the _Join_ to combine datasets and the _Field Calculator_ to compute differences.
+
+Vulcan data are already annual. GRA2PES data are monthly, so they will need to be aggregated to annual.
+
+1. Open the STAC browser, select the GRA2PES collection, and click “Search”.
+2. In the Results tab, you should see monthly emissions layers from GRA2PES. For every month, add the CO2 emissions layer to your map.
+    1. It’s a good idea to rename each layer to include the month (e.g., “GRA2PES 01”), to make the layers easier to inspect later.
+    2. To tidy up your layer list, you can also shift-click all of the GRA2PES layers, right click on one of the selected layers, and click “Group” to bundle them all under a single group (which can also be renamed).
+3. Open the Raster Calculator. Add all of the GRA2PES layers to the list of layers. Then, in the expression, add all the layers together. Click “Run”. When complete, rename the resulting layer to “GRA2PES 2021” (or similar).
+4. Use the Zonal Statistics tool to calculate the sum and mean values of the GRA2PES annual data. Rename this layer to “GRA2PES CBSA” (or similar).
+5. Right click the new “GRA2PES CBSA” layer and click “Properties”. Go to “Joins” and click the green plus at the bottom to add a join. In the Join window, select “Vulcan CBSA” (or whatever you named it) as the join layer and “CSAFP” as the join field and target field. Click OK in the join window, and OK again in the Properties window.
+6. Right click the GRA2PES CBSA layer and select “Open Attribute Table”. Scroll all the way to the right to confirm that there are some fields like “Vulcan CBSA \_mean” in the table.
+7. In the attribute table popup, click the “Open Field Calculator” button (abacus icon; should be 4th from the right). In the Field Calculator window:
+    1. Make sure “Create a new field” and “Create virtual field” are both selected. Give the output field name “sum_difference” and set the field type to “decimal (double)”.
+    2. Find and open the “Fields and Values” selection. Find the “\_sum” field (or search for “\_sum”) and double click it to add it to the Expression. Then, click the “minus” in the expression field (or type a minus). Then, find the “Vulcan CBSA_sum” field and double click it to add it to the Expression. You should now have an expression like ”\_sum” - “Vulcan CBSA_\_sub”. Click “OK”.
+8. Repeat the above step with the \_mean values (calling the virtual layer “mean_difference”).
+9. Visualize the results:
+    1. Right click the “GRA2PES CBSA” layer, click “Properties”, and go to “Symbology”.
+    2. Change the type to “Graduated”, set the value to “sum_difference”, and select a red-blue color ramp.
+    3. Set the mode to “Equal interval” with 10 classes.
+    4. Check “Symmetric Classification” and set the “Around” value to 0.00.
+    5. Click “Apply” or “OK.
+10. Repeat the previous step with the mean_difference.
